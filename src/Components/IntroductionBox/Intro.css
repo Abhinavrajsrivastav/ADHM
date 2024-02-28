@@ -1,15 +1,20 @@
+.Welcome-Page{
+    background-color: rgba(146, 224, 223, 0.268);
+    padding:50px;  
+}
+
+
 .Intro-Container {
-    overflow-x: hidden;
-    overflow-y: hidden;
-    margin: 50px;
     position: relative;
     font-family: "Lato", sans-serif;
     font-weight: bolder;
 }
 
-.Intro-Container {
-    border-radius: 10px;
-}
+.Intro-Container img{
+        height: 600px;
+        width: 100%;
+        border-radius: 10px;
+    }
 
 .Content-Overlay {
     display: flex;
@@ -17,14 +22,15 @@
     justify-content: space-around;
     align-items: start;
     position: absolute;
-    top: 40%;
-    left: 30%;
+    top: 45%;
+    left: 40%;
     transform: translate(-50%, -50%);
     text-align: start;
     color: white;
 }
 
 .Content-Overlay h1 {
+    font-weight: bolder;
     font-size: 5em;
     margin-bottom: 10px;
 }
@@ -41,7 +47,7 @@
 }
 
 .OverLays-box span{
-    padding: 10px;
+    padding: 15px;
     background-color: rgba(255, 173, 21, 0.721);
     color: inherit;
     border-radius: 0px 8px 8px 8px;
@@ -51,4 +57,51 @@
 .OverLays-box span:hover{
     transform: translate(0, -5px);
     cursor: pointer;
+}
+
+
+@media(max-width: 1005px){
+    
+    .Welcome-Page{
+        padding: 20px;
+    }
+
+    .Intro-Container img{
+        height: 435px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .Content-Overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    top: 45%;
+    left: 37%;
+    min-width: 200px;
+}
+
+.Content-Overlay h1 {
+    font-size: 3.0em;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+
+    .OverLays-box{
+        align-items: start;
+        font-size: 10px;
+        justify-content: start;
+        flex-direction: column;
+        /* margin-bottom: 30px; */
+    }
+
+    .OverLays-box span{
+    min-width: 200px;
+    padding: 12px;
+    background-color: rgba(255, 173, 21, 0.721);
+    position: relative;
+    bottom: 20px;
+}
 }
