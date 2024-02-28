@@ -1,0 +1,54 @@
+.Intro-Container {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 50px;
+    position: relative;
+    font-family: "Lato", sans-serif;
+    font-weight: bolder;
+}
+
+.Intro-Container {
+    border-radius: 10px;
+}
+
+.Content-Overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: start;
+    color: white;
+}
+
+.Content-Overlay h1 {
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+
+.OverLays-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 10px;
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+}
+
+.OverLays-box span{
+    padding: 10px;
+    background-color: rgba(255, 173, 21, 0.721);
+    color: inherit;
+    border-radius: 0px 8px 8px 8px;
+    transition: ease-in-out 0.2s;
+}
+
+.OverLays-box span:hover{
+    transform: translate(0, -5px);
+    cursor: pointer;
+}
