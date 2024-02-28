@@ -56,10 +56,19 @@
     cursor: pointer;
 }
 
+
+
+
 @media(max-width: 1150px){
   .navbar-1{
     justify-content: start;
     align-items: start;
     overflow-y: hidden;
+  }
+
+  .toggle img{
+    position: relative;
+    left: 40px;
+    color: red;
   }
 }

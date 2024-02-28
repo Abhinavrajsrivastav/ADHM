@@ -4,10 +4,15 @@ import './Navbar.css'; // Assuming your styles are in a separate CSS file
 
 const Navbar = () => {
   const [mobile, setMobile] = useState(false);
+  const [toggle, setToggle] = useState(false);
+
+  const toggleClicked = () => {
+    setToggle(!toggle);
+  };
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth <= 1150) {
+      if (window.innerWidth <= 900) {
         setMobile(true);
       } else {
         setMobile(false);
@@ -31,6 +36,14 @@ const Navbar = () => {
       {mobile ? (
         <>
           <div className="symbol">|| जय श्री राम ||</div>
+          <div className="toggle" onClick={toggleClicked}>
+            <img
+              src={toggle? "./images/icons/close.png" : "./images/icons/menu.png"}
+              alt=""
+              className="img-fluid"
+              style={{ width: '30px', height: '30px'}}
+            />
+          </div>
         </>
       ) : (
         <>
