@@ -1,9 +1,29 @@
 import React from 'react';
 import './Explore.css';
 import ExploreC from './ExploreCard/ExploreC';
+import ScrollReveal from 'scrollreveal';
+import {useEffect} from 'react';
 
 
 const Explore = () => {
+
+    useEffect(()=>{
+        ScrollReveal().reveal('.Explore-Body-1', {
+            origin: 'bottom',
+            delay: 500,
+            distance: '100px',
+            easing: 'ease-in-out',
+            duration: 1000
+            });
+
+           ScrollReveal().reveal('.Explore-Heading', {
+            origin: 'left',
+            delay: 500,
+            distance: '100px',
+            easing: 'ease-in-out',
+            duration: 1000
+            }); 
+    },[])
 
     const size = window.innerWidth;
   return (
@@ -36,9 +56,9 @@ const Explore = () => {
                 ):
                 (
                 <>
-                <ExploreC height={90} width={120} boxHeight={90}/>
-                <ExploreC height={90} width={120} boxHeight={90}/>
-                <ExploreC height={90} width={120} boxHeight={90}/>
+                <ExploreC height={90} width={130} boxHeight={90}/>
+                <ExploreC height={90} width={130} boxHeight={90}/>
+                <ExploreC height={90} width={130} boxHeight={90}/>
                 </>
                 )}
             </div>

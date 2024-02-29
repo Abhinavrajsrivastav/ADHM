@@ -35,7 +35,7 @@ const Navbar = () => {
     <div className="navbar-1">
       {mobile ? (
         <>
-          <div className="symbol">|| जय श्री राम ||</div>
+          <div className="symbol">|| Ayodhya Dham ||</div>
           <div className="toggle" onClick={toggleClicked}>
             <img
               src={toggle? "./images/icons/close.png" : "./images/icons/menu.png"}
@@ -47,7 +47,7 @@ const Navbar = () => {
         </>
       ) : (
         <>
-          <div className="symbol">|| जय श्री राम ||</div>
+          <div className="symbol">|| Ayodhya Dham ||</div>
           <div className="navLinks">
             <span>Ram Mandir Darshan</span>
             <span>Ram Mandir Aarti</span>

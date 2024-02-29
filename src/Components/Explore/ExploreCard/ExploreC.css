@@ -55,4 +55,8 @@
     .Explore-Content {
         font-size: 13px;
     }
+
+    .EContent{
+       max-width: 140px;
+    }
 }

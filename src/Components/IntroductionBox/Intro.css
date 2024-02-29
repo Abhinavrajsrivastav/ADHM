@@ -1,6 +1,6 @@
 .Welcome-Page{
-    background-color: rgba(146, 224, 223, 0.268);
-    padding:50px;  
+    background-color:  rgba(255, 173, 21, 0.467);
+    padding: 20px;
 }
 
 
@@ -8,13 +8,15 @@
     position: relative;
     font-family: "Lato", sans-serif;
     font-weight: bolder;
+    overflow: hidden;
 }
 
-.Intro-Container img{
-        height: 600px;
-        width: 100%;
-        border-radius: 10px;
-    }
+.Intro-Container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
 
 .Content-Overlay {
     display: flex;
@@ -48,16 +50,17 @@
 
 .OverLays-box span{
     padding: 15px;
-    background-color: rgba(255, 173, 21, 0.721);
+    background-color: var(--root-color);
     color: inherit;
     border-radius: 0px 8px 8px 8px;
     transition: ease-in-out 0.2s;
 }
 
-.OverLays-box span:hover{
-    transform: translate(0, -5px);
+.OverLays-box span:hover {
+    transform: translateY(-10px);
     cursor: pointer;
 }
+
 
 
 @media(max-width: 1005px){

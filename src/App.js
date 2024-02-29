@@ -4,6 +4,7 @@ import Navbar from './Components/NavBar/Navbar';
 import Intro from './Components/IntroductionBox/Intro';
 import Essential from './Components/EssentialGuide/Essential';
 import Explore from './Components/Explore/Explore';
+import CityDesc from './Components/CityDesc/CityDesc';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Essential />
       <Essential />
       <Explore />
+      <CityDesc />
     </>
   )
 }
