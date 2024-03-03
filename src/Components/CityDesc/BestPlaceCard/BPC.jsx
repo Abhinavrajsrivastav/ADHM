@@ -1,11 +1,13 @@
 import React from 'react';
 import './BPC.css';
 
-const BPC = () => {
+const BPC = ({
+  imgSrc,
+}) => {
   return (
     <div className="city-container">
       <div className="city-image">
-        <img src="./images/Places/deputsavs.jpg" alt="" />
+        <img src={imgSrc} alt="" />
         <div className="city-Desc">
           <h3>Deputy SAVS</h3>
           <p>

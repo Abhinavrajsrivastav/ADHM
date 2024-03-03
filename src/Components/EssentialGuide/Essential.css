@@ -3,12 +3,14 @@
     flex-direction: column;
     justify-content: start;
     gap: 40px;
-    padding: 40px 20px 20px 20px;
+    padding: 80px 60px 60px 60px;
     overflow-y: hidden;
     scroll-behavior: smooth;
     font-family: "Lato", sans-serif;
     color: white;
-    background-color: rgba(0, 0, 0, 0.576);
+    background-color: rgba(255, 232, 232, 0.576);
+    background: url('https://www.financialexpress.com/wp-content/uploads/2023/12/ayodhya-sky-1200x542-1.jpg') center/cover no-repeat;
+
 }
 
 .Essential-Container {
@@ -45,9 +47,16 @@
 }
 
 /* Hide the scrollbar for WebKit browsers */
-.Essential-Container::-webkit-scrollbar {
-    display: none !important;
+.Essential-Container {
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
 }
+
+.Essential-Container::-webkit-scrollbar {
+    width: 0 !important;
+    background-color: transparent; /* Optional: Set a transparent background color */
+}
+
 
 @media(max-width: 1005px){
     .EssentialGuide{

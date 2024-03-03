@@ -4,11 +4,13 @@ import './NewsC.css';
 const NewsC = ({ 
   height, 
   width, 
-  boxHeight }) => {
+  boxHeight,
+  imgSrc,
+ }) => {
   return (
     <div className="Explore-Card">
       <div className="Explore-Img" style={{height: boxHeight}}>
-        <img src="./images/Places/AyodhyaAarti.jpg" alt="" style={{ height: height, width: width }} />
+        <img src={imgSrc} alt="" style={{ height: height, width: width }} />
       </div>
       <div className="EContent">
         <div className="Explore-Content">

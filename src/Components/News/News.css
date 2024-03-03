@@ -87,6 +87,11 @@
     max-width: 1101px;
 }
 
+.Explore-Body-2{
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+}
+
 .Explore-Body-2::-webkit-scrollbar {
     display: none !important;
 }
@@ -118,6 +123,7 @@
         position: relative;
         justify-content: start;
         align-items: start;
+        right: 15px;
     }
 
     .Explore-Body-1{

@@ -1,11 +1,13 @@
 import React from 'react';
 import './GuideC.css';
 
-const GuideC = () => {
+const GuideC = ({
+  imgSrc,
+}) => {
   return (
     <div className="Essential-Card">
         <div className="Content-Img">
-            <img src="./images/Places/AyodhyaAarti.jpg" alt="" />
+            <img src={imgSrc} alt="" />
             <div className="Essention-head">
               Read 
             </div>

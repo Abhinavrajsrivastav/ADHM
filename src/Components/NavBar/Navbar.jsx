@@ -54,14 +54,14 @@ const Navbar = () => {
             <span>Ayodhya City</span>
             <span>Planning</span>
             <span>Ayodhya News</span>
-            <span className="d-inline-block">
+            {/* <span className="d-inline-block">
               <img
                 src="./images/icons/search.png"
                 alt=""
                 className="img-fluid"
                 style={{ width: '30px', height: '30px' }}
               />
-            </span>
+            </span> */}
           </div>
         </>
       )}

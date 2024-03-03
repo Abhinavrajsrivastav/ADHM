@@ -1,8 +1,9 @@
 .Content-Img img{
-    height: 260px;
-    width: 350px;
+    height: 100%;
+    width: 100%;
     border-radius: 0px 0px 0px 0px;
     transition: ease-in-out 0.2s;
+    background: center/cover no-repeat;
 }
 
 .Essential-Card{
@@ -60,7 +61,7 @@
 
 .Essention-head{
     position: relative;
-    top: -115%;
+    top: -95%;
     left: 5%;
     padding: 5px 8px 5px 14px;
     border-radius: 6px;

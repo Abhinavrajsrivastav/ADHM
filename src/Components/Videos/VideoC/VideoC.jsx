@@ -17,10 +17,9 @@ function VideoC({
     setShowVideo(false);
   };
 
-  const opts = {
-    height: '500',
-    width: '800',
-  };
+  const sizeOfScreen = window.innerWidth;
+
+  const opts = sizeOfScreen > 1005 ? { width: '1200', height: '600' } : { width: '400', height: '200' };
 
   return (
     <div className="video-Box">

@@ -9,7 +9,7 @@ const Essential = () => {
            <div className="Head-1">
             <h3> ① Essential Guide Updated Daily</h3>
             <div className="Essential-ViewMore">
-                <h1>Ram Mandir Ayodhya</h1>
+                <h1>Shri Ram Bhumi Mandir</h1>
             </div>
            </div>
            <div className="Head-2">
@@ -17,12 +17,12 @@ const Essential = () => {
            </div>
         </div>
         <div className="Essential-Container">
-            <GuideC />
-            <GuideC />
-            <GuideC />
-            <GuideC />
-            <GuideC />
-            <GuideC />
+            <GuideC imgSrc={'./images/Places/Temples/ramTemple.jpg'}/>
+            <GuideC imgSrc={'./images/Places/Temples/HanumanGarhiTemple.jpeg'}/>
+            <GuideC imgSrc={'./images/Places/Temples/KanakBhawanTemple.jpg'}/>
+            <GuideC imgSrc={'./images/Places/Temples/nageshwarNathTemple.jpg'}/>
+            <GuideC imgSrc={'./images/Places/Temples/swargDwarTemple.jpg'}/>
+            <GuideC imgSrc={'./images/Places/Temples/tulsiSmarakBhawanMuseum.jpg'}/>
         </div>
     </div>
   )
