@@ -2,11 +2,13 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 20px;
-    padding: 40px;
+    gap: 40px;
+    padding: 40px 20px 20px 20px;
     overflow-y: hidden;
     scroll-behavior: smooth;
     font-family: "Lato", sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.576);
 }
 
 .Essential-Container {
@@ -15,7 +17,7 @@
     justify-content: start;
     gap: 20px;
     overflow-y: hidden; /* Enable scrolling on the inner container */
-    min-height: 400px; /* Set a fixed height for the scrollable container */
+    padding-bottom: 60px;
 }
 
 .Essential-ViewMore {
@@ -49,13 +51,13 @@
 
 @media(max-width: 1005px){
     .EssentialGuide{
-        padding: 20px;
-        gap: 10px;
-        background-color: rgba(178, 184, 183, 0.576);
+        padding: 40px 20px 0px 10px;
+        gap: 20px;
+        background-color: rgba(0, 0, 0, 0.576);
     }
 
     .Essential-Container {
-        gap: 20px;
+        gap: 10px;
     }
 
     .Essential-ViewMore h2{

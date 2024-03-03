@@ -3,9 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Components/NavBar/Navbar';
 import Intro from './Components/IntroductionBox/Intro';
 import Essential from './Components/EssentialGuide/Essential';
-import Explore from './Components/Explore/Explore';
+import News from './Components/News/News';
 import CityDesc from './Components/CityDesc/CityDesc';
-
+import Videos from './Components/Videos/Videos';
+import Fotter from './Components/Fotter/Fotter';
 
 const App = () => {
   return (
@@ -13,10 +14,12 @@ const App = () => {
       <Navbar />
       <Intro />
       <Essential />
-      <Essential />
-      <Essential />
-      <Explore />
+      {/* <Essential /> */}
+      {/* <Essential /> */}
       <CityDesc />
+      <News />
+      <Videos />
+      <Fotter />
     </>
   )
 }

@@ -2,6 +2,21 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(170, 169, 167, 0.713);
+  color: rgb(0, 0, 0);
+  font-family: "Lato", sans-serif;
+  padding: 20px;
+  padding-bottom: 120px;
+}
+
+.cityDesc-Heading{
+  position: relative;
+  align-items: start;
+  top: 40px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .city-container {
@@ -9,108 +24,71 @@
   flex-direction: row;
   justify-content: space-around;
   gap: 30px;
-  padding: 30px;
-  background-color: black;
+
 }
 
-.city-image-1 {
-  width: 400px;
-  height: 500px;
-  border-radius: 205px 0px 205px 0px;
-  overflow: hidden;
-  min-width: 400px;
+.ViewMore{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  border-radius: 10px;
 }
 
-.city-image-2 {
-  width: 400px;
-  height: 500px;
-  border-radius: 0px 205px 0px 205px;
-  overflow: hidden;
-  min-width: 400px;
-  color: white;
+.ViewMore:hover {
+  background-color: rgba(244, 159, 56, 0.9);
 }
 
-.city-image-1 img,.city-image-2 img {
-  width: 400px;
-  height: 700px;
-  transition: ease-in-out 0.5s;
+.city-Button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #7777778f;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
 }
 
-.city-description {
-  margin-top: 20px;
-  color: white;
+.city-Button:hover {
+  color: black;
+  background-color: #f18e1d;
+  border-radius: 10px;
+}
+
+.Best-Places{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 90px 20px 40px 20px;
+  border-radius: 10px;
 }
 
 
-.city-image-2:hover img{
-  transform: scale(1.2);
-}
-
-.city-image-1:hover img{
-  transform: scale(1.2);
-}
-
-.city-image-2::-webkit-scrollbar {
-    display: none !important;
-}
-
-.city-image-1::-webkit-scrollbar {
-    display: none !important;
-}
-
-.city-description h2{
-  font-size: 35px;
-  padding-top: 20px;
-}
-
-.city-description p{
-  font-size: 25px;
-  padding-top: 30px;
-}
 
 
 @media(max-width: 1005px){
-
-
   .city-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  gap: 30px;
-  padding: 30px;
   background-color: black;
+  border-radius: 20px;
 }
 
-  .city-image-1,.city-image-2 {
-  width: 100px;
-  height: 150px;
-  border-radius: 100px 0px 100px 0px;
-  overflow: hidden;
-  min-width: 150px;
-  color: white;
-}
-
-.city-image-1 img{
-  width: 200px;
-  height: 250px;
-  transition: ease-in-out 0.1s;
-}
-
-.city-image-2 img {
-  width: 200px;
-  height: 250px;
-  transition: ease-in-out 0.1s;
-  filter: hue-rotate(120deg);
-}
-
-.city-description h2{
+.cityDesc-Heading{
+  position: relative;
+  top: 50px;
   font-size: 20px;
-  padding-top: 0px;
 }
 
-.city-description p{
-  font-size: 12px;
-  padding-top: 10px;
+.Best-Places{
+  border-radius: 20px;
 }
 }

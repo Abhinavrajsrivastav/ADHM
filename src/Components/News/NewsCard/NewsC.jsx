@@ -1,7 +1,7 @@
 import React from 'react';
-import './ExploreC.css';
+import './NewsC.css';
 
-const ExploreC = ({ 
+const NewsC = ({ 
   height, 
   width, 
   boxHeight }) => {
@@ -22,4 +22,4 @@ const ExploreC = ({
   );
 }
 
-export default ExploreC;
+export default NewsC;

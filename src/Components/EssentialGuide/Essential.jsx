@@ -10,7 +10,6 @@ const Essential = () => {
             <h3> ① Essential Guide Updated Daily</h3>
             <div className="Essential-ViewMore">
                 <h1>Ram Mandir Ayodhya</h1>
-                <h2 className="View-More">More</h2>
             </div>
            </div>
            <div className="Head-2">
