@@ -38,9 +38,9 @@ const CityDesc = () => {
         <span>Some Of the best Places in Ayodhya.</span>
       </div>
       <div className="Best-Places">
-           <BPC imgSrc={'./Images/Places/RelaxPlace/ramKiPaidi.jpg'}/>  
-           <BPC imgSrc={'./Images/Places/RelaxPlace/guptarGhat.jpg'}/>   
-           <BPC imgSrc={'./Images/Places/RelaxPlace/militaryTemple.jpg'}/>     
+           <BPC imgSrc={'./Images/Places/RelaxPlace/ramKiPaidi.jpg'} title={'Ramki Paidi'} about={'Ram ki paidi'}/>  
+           <BPC imgSrc={'./Images/Places/RelaxPlace/guptarGhat.jpg'} title={'Guptar ghat'} about={'Guptar Ghat'}/>   
+           <BPC imgSrc={'./Images/Places/RelaxPlace/militaryTemple.jpg'} title={'Milatry temple'} about={'Milatry temple'}/>     
       </div>
       <div className="ViewMore">
         <button className="city-Button">Explore More</button>

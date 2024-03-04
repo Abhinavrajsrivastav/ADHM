@@ -35,10 +35,10 @@ const News = () => {
         <div className="Explore-Body">
             <div className="Explore-Body-1">
                 {size>=1005?(<>
-        <NewsC height={250} width={400} boxHeight={250}  imgSrc={'./Images/ThingsRemember/askHelp.jpeg'}/>
-        <NewsC height={250} width={400} boxHeight={250}  imgSrc={'./Images/ThingsRemember/askHelp.jpeg'}/></>):(<>
-        <NewsC height={100} width={150} boxHeight={100}  imgSrc={'./Images/ThingsRemember/askHelp.jpeg'}/>
-        <NewsC height={100} width={150} boxHeight={100}  imgSrc={'./Images/ThingsRemember/askHelp.jpeg'}/></>)}
+        <NewsC height={250} width={400} boxHeight={250}  imgSrc={'./Images/ThingsRemember/askHelp.jpeg'} title={'Ask For Help.'}/>
+        <NewsC height={250} width={400} boxHeight={250}  imgSrc={'./Images/ImportantThings/ayodhyaPolicee.png'} title={'Police in Ayodhya'}/></>):(<>
+        <NewsC height={100} width={150} boxHeight={100}  imgSrc={'./Images/ImportantThings/medical.jpg'} title={'Medical Hospitals in ayodhya.'}/>
+        <NewsC height={100} width={150} boxHeight={100}  imgSrc={'./Images/ImportantThings/ayodhyaPolicee.png'} title={'Ayodhya Police Station.'}/></>)}
                 <div className="viewMore">
                 </div>
             </div>
@@ -46,19 +46,19 @@ const News = () => {
                 {size>=1005?
                 (
                 <>
-                <NewsC height={300} width={350} boxHeight={300} imgSrc={'./Images/ThingsRemember/askHelp.jpeg'}/>
-                <NewsC height={300} width={350} boxHeight={300} imgSrc={'./Images/ThingsRemember/askHelp.jpeg'}/>
-                <NewsC height={300} width={350} boxHeight={300} imgSrc={'./Images/ThingsRemember/askHelp.jpeg'}/>
-                <NewsC height={300} width={350} boxHeight={300} imgSrc={'./Images/ThingsRemember/askHelp.jpeg'}/>
-                <NewsC height={300} width={350} boxHeight={300} imgSrc={'./Images/ThingsRemember/askHelp.jpeg'}/>
-                <NewsC height={300} width={350} boxHeight={300} imgSrc={'./Images/ThingsRemember/askHelp.jpeg'}/>
+                <NewsC height={300} width={350} boxHeight={300} imgSrc={'./Images/ThingsRemember/askHelp.jpeg'} title={'Ask for help.'}/>
+                <NewsC height={300} width={350} boxHeight={300} imgSrc={'./Images/ImportantThings/medical.jpg'} title={'Medical Hospitals in ayodhya.'}/>
+                <NewsC height={300} width={350} boxHeight={300} imgSrc={'./Images/ImportantThings/aware.png'} title={'Be aware.'}/>
+                <NewsC height={300} width={350} boxHeight={300} imgSrc={'./Images/ImportantThings/motals.jpg'} title={'Place where you can stay.'}/>
+                <NewsC height={300} width={350} boxHeight={300} imgSrc={'./Images/ImportantThings/busService.png'} title={'Bus services in ayodhya.'}/>
+                <NewsC height={300} width={350} boxHeight={300} imgSrc={'./Images/ImportantThings/taxiService.jpg'} title={'Taxi service in local areas.'}/>
                 </>
                 ):
                 (
                 <>
-                <NewsC height={90} width={130} boxHeight={90}  imgSrc={'./Images/ThingsRemember/askHelp.jpeg'}/>
-                <NewsC height={90} width={130} boxHeight={90}  imgSrc={'./Images/ThingsRemember/askHelp.jpeg'}/>
-                <NewsC height={90} width={130} boxHeight={90}  imgSrc={'./Images/ThingsRemember/askHelp.jpeg'}/>
+                <NewsC height={90} width={130} boxHeight={90}  imgSrc={'./Images/ImportantThings/busService.png'} title={'Bus services in ayodhya.'}/>
+                <NewsC height={90} width={130} boxHeight={90}  imgSrc={'./Images/ImportantThings/aware.png'} title={'Be aware.'}/>
+                <NewsC height={90} width={130} boxHeight={90}  imgSrc={'./Images/ThingsRemember/askHelp.jpeg'} title={'ask for help if you need.'}/>
                 </>
                 )}
             </div>

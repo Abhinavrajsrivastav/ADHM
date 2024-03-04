@@ -6,6 +6,7 @@ const NewsC = ({
   width, 
   boxHeight,
   imgSrc,
+  title,
  }) => {
   return (
     <div className="Explore-Card">
@@ -14,10 +15,10 @@ const NewsC = ({
       </div>
       <div className="EContent">
         <div className="Explore-Content">
-          <span>Booking of Ayodhya Saryu Aarti step-by-step guide.</span>
+          <span>{title}</span>
         </div>
         <div className="About-Explore">
-          How to book Aarti at Saryu Ghat in Ayodhya?.
+          {/* How to book Aarti at Saryu Ghat in Ayodhya?. */}
         </div>
       </div>
     </div>
