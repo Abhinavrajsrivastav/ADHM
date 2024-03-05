@@ -13,14 +13,9 @@ const BPP = ({
   <button type="button" className="action">Read more</button>
 </div>
 <div className="info">
-  <p className="title">How to make this material card ?</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-molestiae quas vel sint commodi. </p>
+  <p className="title">{title}</p>
+  <p>{about}</p>
 </div>
-{/* <div className="footer">
-  <p className="tag">#HTML #CSS </p>
-  <button type="button" className="action">Read more</button>
-</div> */}
 </div>
   );
 };

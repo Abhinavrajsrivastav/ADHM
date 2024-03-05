@@ -5,8 +5,7 @@
   border-radius:10px;
   background-color: rgb(48, 192, 239);
   width: 300px;
-  max-height: 400px;
-  max-height: 400px;
+  max-height: 350px;
   overflow: hidden;
   border: 0px solid #000;
 }
@@ -61,7 +60,7 @@
   position: absolute;
   top: 84%;
   left: 65%;
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.2s;
 }
 
 .action:hover{
@@ -69,3 +68,50 @@
   cursor: pointer;
 }
 
+
+@media(max-width: 1005px){
+  .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius:10px;
+  background-color: rgb(48, 192, 239);
+  width: 350px;
+  max-height: 350px;
+  overflow: hidden;
+  border: 0px solid #000;
+  position: relative;
+  right: 40px;
+}
+
+.header {
+  position: relative;
+  height: 300px;
+  width: 350px;
+  background-color: rgb(33 150 243);
+}
+
+.header img{
+  background: no-repeat/cover center;
+  object-fit: cover;
+  height: 100%;
+  width: 350px;
+} 
+
+.info {
+  padding: 10;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.action {
+  text-transform: none;
+  font-size: .50rem;
+  padding: 0.70rem 1.rem;
+  top: 78%;
+  left: 70%;
+}
+}

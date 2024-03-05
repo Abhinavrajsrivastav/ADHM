@@ -48,3 +48,56 @@
     background-color: black;
     background: url('https://rishikeshdaytour.com/blog/wp-content/uploads/2023/09/top10-places-to-visit-in-Ayodhya.jpg') no-repeat center/cover;
 }
+
+@media(max-width: 1005px){
+    .bestPlace-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100vh;
+}
+
+.body-heading{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.bestPlace-Head img{
+    height: 450px;
+    width: 100%;
+}
+
+.heading-text span{
+    top: 34%;
+    left: 5%;
+    font-size: 25px;
+    max-width: 350px;
+}
+
+.Best-Places-body{
+    width: 1000px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 60px;
+    background-color: black;
+    background: url('https://rishikeshdaytour.com/blog/wp-content/uploads/2023/09/top10-places-to-visit-in-Ayodhya.jpg') no-repeat center/cover;
+    object-fit: cover;
+}
+}
+
+@media(max-width: 1009px) and (min-width: 460px){
+    .bestPlace-Head img{
+    height: 450px;
+    width: 1200px;
+}
+
+.Best-Places-body{
+    width: 2000px;
+  }
+}

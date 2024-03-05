@@ -34,6 +34,13 @@ const App = () => {
           </>
         } />
 
+        <Route path="/expertAdvice" element={
+          <>
+            <Navbar />
+            <Fotter />
+          </>
+        } />
+
       </Routes>
     </Router>
   );
