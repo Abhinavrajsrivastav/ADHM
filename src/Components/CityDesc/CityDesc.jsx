@@ -3,6 +3,7 @@ import ScrollReveal from 'scrollreveal';
 import './CityDesc.css';
 import {useState} from 'react';
 import BPC from './BestPlaceCard/BPC';
+import { Link } from 'react-router-dom';
 
 const CityDesc = () => {
 
@@ -43,7 +44,7 @@ const CityDesc = () => {
            <BPC imgSrc={'./Images/Places/RelaxPlace/militaryTemple.jpg'} title={'Milatry temple'} about={'Milatry temple'}/>     
       </div>
       <div className="ViewMore">
-        <button className="city-Button">Explore More</button>
+        <Link to="/SomePlaces"><button className="city-Button">Explore More</button></Link>
       </div>
     </div>
   );
