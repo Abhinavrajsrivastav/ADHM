@@ -45,36 +45,68 @@
     overflow-x: hidden;
 }
 
-.viewMore {
-    width: 90px;  /* Adjust the width as needed for your design */
-    height: 90px;  /* Adjust the height as needed for your design */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    border: 1px solid white;
-    overflow: hidden;
-    position: relative;
-    bottom: 60px;
-    cursor: pointer;  /* Change cursor to pointer on hover */
-    transition: background-color 0.3s ease;  /* Add transition for background color change */
-    text-decoration: none;
+.cta {
+  position: relative;
+  top: -18px;
+  left: 0px;
+  margin-left: 10px;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+  min-width: 180px;
 }
 
-.viewMore::before {
-    content: "\2192";  /* Unicode character for a right-pointing arrow (→) */
-    color: rgb(255, 208, 0);
-    font-size: 30px;  /* Adjust the font size as needed for your design */
-    transition: transform 0.3s ease;  /* Add transition for arrow transformation */
+.cta:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 6px;
+  display: block;
+  border-radius: 50px;
+  background: #fed83f;
+  width: 60px;
+  height: 60px;
+  transition: all 0.3s ease;
 }
 
-.viewMore:hover {
-    background-color: rgb(29, 30, 30);
+.cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #234567;
 }
 
-.viewMore:hover::before {
-    transform: translateX(5px);  /* Adjust the amount of translation for the arrow */
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #234567;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
 }
+
+.cta:hover:before {
+  width: 100%;
+  background: #fdd211;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.95);
+}
+
 
 .Explore-Body-2 {
     display: flex;

@@ -43,7 +43,15 @@ const News = () => {
               <NewsC height={100} width={150} boxHeight={100} imgSrc={'./Images/ImportantThings/ayodhyaPolicee.png'} title={'Ayodhya Police Station.'} />
             </>
           )}
-          <Link to="/expertAdvice"><p className="viewMore"></p></Link>
+          <Link to="/ExpertAdvice">
+            <button className="cta">
+             <span>View More</span>
+             <svg width="15px" height="10px" viewBox="0 0 13 10">
+               <path d="M1,5 L11,5"></path>
+               <polyline points="8 1 12 5 8 9"></polyline>
+             </svg>
+           </button>
+          </Link>
         </div>
         <div className="Explore-Body-2">
           {size >= 1005 ? (

@@ -34,7 +34,7 @@ const App = () => {
           </>
         } />
 
-        <Route path="/expertAdvice" element={
+        <Route path="/ExpertAdvice" element={
           <>
             <Navbar />
             <Fotter />
