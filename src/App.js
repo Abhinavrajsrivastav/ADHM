@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/NavBar/Navbar';
 import Intro from './Components/IntroductionBox/Intro';
 import Essential from './Components/EssentialGuide/Essential';
-import News from './Components/News/News';
-import CityDesc from './Components/CityDesc/CityDesc';
+import Places from './Components/Places/Places';
+import PlaceDesc from './Components/CityDesc/CityDesc';
 import Videos from './Components/Videos/Videos';
 import Fotter from './Components/Fotter/Fotter';
 import BestPlaces from './Components/CityDesc/BestPlacePage/bestPlacePage';
@@ -19,8 +19,8 @@ const App = () => {
             <Navbar />
             <Intro />
             <Essential />
-            <CityDesc />
-            <News />
+            <PlaceDesc />
+            <Places />
             <Videos />
             <Fotter />
           </>
