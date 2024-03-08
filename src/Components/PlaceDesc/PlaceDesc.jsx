@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
-import './CityDesc.css';
+import './PlaceDesc.css';
 import {useState} from 'react';
 import BPC from './BestPlaceCard/BPC';
 import { Link } from 'react-router-dom';

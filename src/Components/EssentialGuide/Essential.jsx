@@ -1,5 +1,5 @@
 import React from 'react';
-import GuideC from './GuideCards/GuideC';
+import GuideCard from './GuideCards/GuideCard';
 import './Essential.css';
 
 const Essential = () => {
@@ -12,17 +12,13 @@ const Essential = () => {
                 <h1>Shri Ram Bhumi Mandir</h1>
             </div>
            </div>
-           <div className="Head-2">
-
-           </div>
         </div>
         <div className="Essential-Container">
-            <GuideC imgSrc={'./images/Places/Temples/ramTemple.jpg'}/>
-            <GuideC imgSrc={'./images/Places/Temples/HanumanGarhiTemple.jpeg'}/>
-            <GuideC imgSrc={'./images/Places/Temples/KanakBhawanTemple.jpg'}/>
-            <GuideC imgSrc={'./images/Places/Temples/nageshwarNathTemple.jpg'}/>
-            <GuideC imgSrc={'./images/Places/Temples/swargDwarTemple.jpg'}/>
-            <GuideC imgSrc={'./images/Places/Temples/tulsiSmarakBhawanMuseum.jpg'}/>
+            <div className="guide-container">
+            <GuideCard />
+            <GuideCard />
+            <GuideCard />
+            </div>
         </div>
     </div>
   )

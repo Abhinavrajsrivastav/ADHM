@@ -4,11 +4,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/NavBar/Navbar';
 import Intro from './Components/IntroductionBox/Intro';
 import Essential from './Components/EssentialGuide/Essential';
-import Places from './Components/Places/Places';
-import PlaceDesc from './Components/CityDesc/CityDesc';
+import Expert from "./Components/ExpertAdvice/Expert";
+import PlaceDesc from './Components/PlaceDesc/PlaceDesc';
 import Videos from './Components/Videos/Videos';
 import Fotter from './Components/Fotter/Fotter';
-import BestPlaces from './Components/CityDesc/BestPlacePage/bestPlacePage';
+import BestPlaces from './Components/PlaceDesc/BestPlacePage/bestPlacePage';
+import ExpertAdvicePage from './Components/PlaceDesc/ExpertAdvicePage/ExpertAdvicePage';
+// import ExpertAdvicePage from './Components/ExpertAdvice/ExpertAdvicePage/ExpertAdvicePage';
 
 const App = () => {
   return (
@@ -19,8 +21,10 @@ const App = () => {
             <Navbar />
             <Intro />
             <Essential />
+            <Essential />
+            <Essential />
             <PlaceDesc />
-            <Places />
+            <Expert />
             <Videos />
             <Fotter />
           </>
@@ -29,7 +33,8 @@ const App = () => {
         <Route path="/SomePlaces" element={
           <>
             <Navbar />
-            <BestPlaces />
+            <Intro />
+            <ExpertAdvicePage />
             <Fotter />
           </>
         } />
@@ -37,6 +42,8 @@ const App = () => {
         <Route path="/ExpertAdvice" element={
           <>
             <Navbar />
+            <Intro />
+            <ExpertAdvicePage />
             <Fotter />
           </>
         } />

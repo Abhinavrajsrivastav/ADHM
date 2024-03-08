@@ -1,7 +1,7 @@
 import React from 'react';
-import './NewsC.css';
+import './ExpertC.css';
 
-const NewsC = ({ 
+const ExpertC = ({ 
   height, 
   width, 
   boxHeight,
@@ -25,4 +25,4 @@ const NewsC = ({
   );
 }
 
-export default NewsC;
+export default ExpertC;

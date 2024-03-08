@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
-import './News.css';
-import ExpertC from './ExpertCard/NewsC';
+import './Expert.css';
+import ExpertC from './ExpertCard/ExpertC';
 import ScrollReveal from 'scrollreveal';
 import { Link } from 'react-router-dom';
 
-const News = () => {
+const Expert = () => {
   useEffect(() => {
     ScrollReveal().reveal('.Explore-Body-1', {
       origin: 'bottom',
@@ -76,4 +76,4 @@ const News = () => {
   );
 }
 
-export default News;
+export default Expert;
