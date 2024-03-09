@@ -28,22 +28,6 @@
   gap: 30px;
 }
 
-.ViewMore{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: ease-in-out 0.3s;
-  border-radius: 10px;
-  background-color: #FBA834;
-}
-
-.ViewMore:hover {
-  background-color: rgba(244, 159, 56, 0.9);
-}
 
 .city-Button {
   padding: 10px 20px;
@@ -114,7 +98,4 @@
   border-radius: 20px;
 }
 
-.city-Button {
-  /* margin-bottom: 20px; */
-}
 }

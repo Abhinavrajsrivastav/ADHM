@@ -44,7 +44,15 @@ const CityDesc = () => {
            <BPC imgSrc={'./Images/Places/RelaxPlace/militaryTemple.jpg'} title={'Milatry temple'} about={'Milatry temple'}/>     
       </div>
       <div className="ViewMore">
-        <Link to="/SomePlaces"><button className="city-Button">Explore More</button></Link>
+        <Link to="/SomePlaces">
+          <button className="cta">
+             <span>View More</span>
+             <svg width="15px" height="10px" viewBox="0 0 13 10">
+               <path d="M1,5 L11,5"></path>
+               <polyline points="8 1 12 5 8 9"></polyline>
+             </svg>
+           </button>
+        </Link>
       </div>
     </div>
   );

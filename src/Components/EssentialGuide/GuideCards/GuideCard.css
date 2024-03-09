@@ -44,7 +44,8 @@
   margin-top: 0.5rem;
   color: #a4a7ac;
   font-size: 0.875rem;
-  line-height: 1.25rem;
+  /* line-height: 1.25rem; */
+  max-width: 400px;
 }
 
 .Expert-read {
@@ -69,4 +70,10 @@
 
 .action:hover span {
   transform: translateX(4px);
+}
+
+@media(maxwidth: 1005px){
+  .desc{
+    max-width: 400px;
+  }
 }
