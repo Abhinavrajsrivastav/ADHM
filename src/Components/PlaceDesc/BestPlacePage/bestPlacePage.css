@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
+    border-radius: 10px;
 }
 
 .body-heading{
@@ -46,7 +47,7 @@
     gap: 20px;
     padding: 60px;
     background-color: black;
-    background: url('https://rishikeshdaytour.com/blog/wp-content/uploads/2023/09/top10-places-to-visit-in-Ayodhya.jpg') no-repeat center/cover;
+    /* background: url('https://rishikeshdaytour.com/blog/wp-content/uploads/2023/09/top10-places-to-visit-in-Ayodhya.jpg') no-repeat center/cover; */
 }
 
 @media(max-width: 1005px){
@@ -86,7 +87,7 @@
     gap: 20px;
     padding: 60px;
     background-color: black;
-    background: url('https://rishikeshdaytour.com/blog/wp-content/uploads/2023/09/top10-places-to-visit-in-Ayodhya.jpg') no-repeat center/cover;
+    /* background: url('https://rishikeshdaytour.com/blog/wp-content/uploads/2023/09/top10-places-to-visit-in-Ayodhya.jpg') no-repeat center/cover; */
     object-fit: cover;
 }
 }

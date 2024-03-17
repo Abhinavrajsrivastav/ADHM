@@ -21,8 +21,6 @@ const App = () => {
             <Navbar />
             <Intro />
             <Essential />
-            <Essential />
-            <Essential />
             <PlaceDesc />
             <Expert />
             <Videos />

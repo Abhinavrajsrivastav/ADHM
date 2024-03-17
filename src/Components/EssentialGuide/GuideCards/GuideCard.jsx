@@ -3,8 +3,8 @@ import './GuideCard.css';
 
 const GuideCard = () => {
   return (
-    <div className="Expert-card">
-      <div className="image">
+    <div className="Essential-Expert-card">
+      <div className="Essential-image">
         <img src="./images/Places/ramMandir.jpg" alt="" />
       </div>
       <div className="content">
