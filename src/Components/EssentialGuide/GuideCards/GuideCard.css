@@ -1,9 +1,8 @@
 .Essential-Expert-card {
   max-width: 300px;
-  background-color: #121313ed;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  color: white;
-  border: 1px solid transparent;
+  background-color: #2d6dbbbe;
+  box-shadow: 0 1px 2px 0 rgba(22, 15, 96, 0.673);
+  color: rgb(0, 0, 0);
   border-radius: 20px;
   height:auto;
 }
@@ -31,7 +30,7 @@
 }
 
 .title {
-  color: #ffffff;
+  color: #000000;
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 600;
@@ -40,7 +39,7 @@
 
 .desc {
   margin-top: 0.5rem;
-  color: #a4a7ac;
+  color: #000000;
   font-size: 0.875rem;
   /* line-height: 1.25rem; */
   max-width: 400px;
@@ -49,7 +48,7 @@
 .Expert-read {
   display: inline-flex;
   margin-top: 1rem;
-  color: #ffffff;
+  color: #000000;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 500;

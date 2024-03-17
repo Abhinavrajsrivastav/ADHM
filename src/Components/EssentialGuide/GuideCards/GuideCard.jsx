@@ -13,8 +13,7 @@ const GuideCard = () => {
           </span>
 
         <p className="desc">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-          dolores, possimus pariatur animi temporibus nesciunt praesentium
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </p>
 
         <a className="Expert-read" href="#">

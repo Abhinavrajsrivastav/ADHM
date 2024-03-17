@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Meetei+Mayek:wght@100..900&display=swap');
+
+
+.EssentialGuide{
+    background: hsla(166, 66%, 34%, 1);
+
+background: linear-gradient(90deg, hsla(166, 66%, 34%, 1) 0%, hsla(231, 56%, 52%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(166, 66%, 34%, 1) 0%, hsla(231, 56%, 52%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(166, 66%, 34%, 1) 0%, hsla(231, 56%, 52%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E9176", endColorstr="#3F53C9", GradientType=1 );
+}
+
 .Essential-Container{
     display: flex;
     flex-direction: column;
@@ -5,19 +22,38 @@
     justify-content: center;
     height: 100%;
     padding: 0px;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 60px;
-    background-color: #5236f3;
+    background-color: rgba(#0061ff,#60efff);
 }
 
-.EssentialG-Head{
-    background-color: #000000;
-    padding: 30px;
+.EssentialG-Head {
     color: white;
-    margin-bottom: -20px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding: 0px 60px 0px 60px;
+    background: url('./flower.jpg') no-repeat center/cover;
+    position: relative; /* Added for positioning overlay */
+    overflow: hidden; /* Clip the border overflow */
+    border-radius: 0px; /* Border radius for curvature */
+    padding: 50px;
+    font-size: 20px;
+    font-family: "Noto Sans Meetei Mayek", sans-serif;
+    font-style: normal;
+    background-color: rgba(#0061ff,#60efff);
 }
+
+/* Added overlay styling */
+.EssentialG-Head::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border: 5px solid black; /* Custom border design */
+    border-radius: 20px; /* Border radius to match main element */
+    z-index: -1; /* Behind the background */
+}
+
 
 .guide-container{
     display: flex;
@@ -29,8 +65,8 @@
     height: 100%;
     padding: 0px;
     padding-top: 0px;
-    padding-bottom: 60px;
-    background-color: #5236f3;
+    padding-bottom: 40px;
     scroll-behavior: smooth;
+    background-color: rgba(#0061ff,#60efff);
 }
 

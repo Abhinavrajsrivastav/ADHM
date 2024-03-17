@@ -19,6 +19,11 @@ const Essential = () => {
             <GuideCard />
             <GuideCard />
             <GuideCard />
+            <GuideCard />
+            <GuideCard />
+            <GuideCard />
+            <GuideCard />
+            <GuideCard />
             
             </div>
 
