@@ -2,9 +2,11 @@
   max-width: 300px;
   background-color: #2d6dbbbe;
   box-shadow: 0 1px 2px 0 rgba(22, 15, 96, 0.673);
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   border-radius: 20px;
   height:auto;
+  max-height: 350px;
+  min-height: 330px;
 }
 
 .card a {
@@ -30,7 +32,7 @@
 }
 
 .title {
-  color: #000000;
+  color: #ffffff;
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 600;
@@ -39,7 +41,7 @@
 
 .desc {
   margin-top: 0.5rem;
-  color: #000000;
+  color: #ffffff;
   font-size: 0.875rem;
   /* line-height: 1.25rem; */
   max-width: 400px;
@@ -47,8 +49,8 @@
 
 .Expert-read {
   display: inline-flex;
-  margin-top: 1rem;
-  color: #000000;
+  margin-top: 0rem;
+  color: #ffffff;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 500;

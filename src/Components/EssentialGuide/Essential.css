@@ -4,15 +4,13 @@
 
 
 .EssentialGuide{
-    background: hsla(166, 66%, 34%, 1);
-
+/* background: hsla(166, 66%, 34%, 1);
 background: linear-gradient(90deg, hsla(166, 66%, 34%, 1) 0%, hsla(231, 56%, 52%, 1) 100%);
-
 background: -moz-linear-gradient(90deg, hsla(166, 66%, 34%, 1) 0%, hsla(231, 56%, 52%, 1) 100%);
-
 background: -webkit-linear-gradient(90deg, hsla(166, 66%, 34%, 1) 0%, hsla(231, 56%, 52%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E9176", endColorstr="#3F53C9", GradientType=1 );
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E9176", endColorstr="#3F53C9", GradientType=1 ); */
+ /* background: linear-gradient(to bottom, #5236f3 0%, rgba(27, 108, 173, 0.78) 100%), radial-gradient(at top center, rgba(58, 12, 149, 0.637) 0%, rgba(58, 7, 129, 0.4) 120%) #1e0158; */
+ background-color: #5236f3;
 }
 
 .Essential-Container{
@@ -22,9 +20,71 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E9176", en
     justify-content: center;
     height: 100%;
     padding: 0px;
-    padding-top: 40px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 40px;
     background-color: rgba(#0061ff,#60efff);
+    color: white;
+}
+.Essential-cta {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin-left: 10px;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+  min-width: 180px;
+}
+
+.Essential-cta:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 6px;
+  display: block;
+  border-radius: 50px;
+  background: #196cbedd;
+  width: 60px;
+  height: 60px;
+  transition: all 0.3s ease;
+}
+
+.Essential-cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.Essential-cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #ffffff;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.Essential-cta:hover:before {
+  width: 100%;
+  background: #1d6bd1;
+}
+
+.Essential-cta:hover svg {
+  transform: translateX(0);
+}
+
+.Essential-cta:active {
+  transform: scale(0.95);
 }
 
 .EssentialG-Head {
