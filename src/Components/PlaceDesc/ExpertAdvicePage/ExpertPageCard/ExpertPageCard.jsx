@@ -7,7 +7,7 @@ const ExpertPageCard = () => {
       <div className="image">
         <img src="./images/Places/ramMandir.jpg" alt="" />
       </div>
-      <div className="content">
+      {/* <div className="content">
           <span className="title">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </span>
@@ -21,7 +21,7 @@ const ExpertPageCard = () => {
          Read More
           <span aria-hidden="true"> → </span>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };
