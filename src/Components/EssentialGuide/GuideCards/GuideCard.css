@@ -1,19 +1,19 @@
 .Essential-Expert-card {
-  max-width: 300px;
+  width: auto;
   background-color: #2d6dbbbe;
   box-shadow: 0 1px 2px 0 rgba(22, 15, 96, 0.673);
   color: rgb(255, 255, 255);
   border-radius: 20px;
   height:auto;
-  max-height: 350px;
-  min-height: 330px;
+  max-width: 350px;
+  min-width: 350px;
 }
 
 .card a {
   text-decoration: none
 }
 
-.content {
+.contents {
   padding: 1.1rem;
 }
 
@@ -28,7 +28,7 @@
 
 .Essential-image img{
   height: 200px;
-  width: auto;
+  width: 100%;
 }
 
 .title {

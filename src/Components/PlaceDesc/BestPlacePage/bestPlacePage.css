@@ -1,6 +1,6 @@
 .bestPlace-container{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: start;
     align-items: start;
     border-radius: 10px;

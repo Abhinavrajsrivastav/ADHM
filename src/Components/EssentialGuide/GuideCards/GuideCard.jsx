@@ -11,7 +11,7 @@ const GuideCard = ({
       <div className="Essential-image">
         <img src={img} alt="" />
       </div>
-      <div className="content">
+      <div className="contents">
           <span className="title">
             {name}
           </span>

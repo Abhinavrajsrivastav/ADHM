@@ -1,20 +1,19 @@
 import React from 'react';
-import './ExpertAdvicePage.css';
-import ExpertPageCard from './ExpertPageCard/ExpertPageCard';
-import AboutPlace from '../../../Components/Data/AboutPlace';
+import './TemplesPage.css';
+import AboutPlace from '../../Data/AboutTemples';
+import TempleCard from './ExpertPageCard/TempleCard';
 
 
-const ExpertAdvicePage = () => {
-  // Accessing the places data from AboutPlace component
+const TemplesPage = () => {
   const placesData = AboutPlace();
 
   return (
     <div className="expert-page-container">
-      <div className="expert-page-heading">Some places you can hangout in Ayodhya</div>
+      <div className="expert-page-heading">Temples of Ayodhya</div>
       <div className="ExpertPage-container">
         {/* Mapping over placesData array and generating ExpertPageCard for each place */}
         {placesData.map((place, index) => (
-          <ExpertPageCard
+          <TempleCard
             key={index} // Providing a unique key for each card
             name={place.name}
             img={place.img}
@@ -26,4 +25,4 @@ const ExpertAdvicePage = () => {
   );
 };
 
-export default ExpertAdvicePage;
+export default TemplesPage;

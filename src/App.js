@@ -8,9 +8,8 @@ import Expert from "./Components/ExpertAdvice/Expert";
 import PlaceDesc from './Components/PlaceDesc/PlaceDesc';
 import Videos from './Components/Videos/Videos';
 import Fotter from './Components/Fotter/Fotter';
-import BestPlaces from './Components/PlaceDesc/BestPlacePage/bestPlacePage';
 import ExpertAdvicePage from './Components/PlaceDesc/ExpertAdvicePage/ExpertAdvicePage';
-// import ExpertAdvicePage from './Components/ExpertAdvice/ExpertAdvicePage/ExpertAdvicePage';
+import TemplesPage from './Components/EssentialGuide/ExpertAdvicePage/TemplesPage';
 
 const App = () => {
   return (
@@ -28,10 +27,17 @@ const App = () => {
           </>
         } />
 
+        <Route path="/Temples" element={
+          <>
+            <Navbar />
+            <TemplesPage />
+            <Fotter />
+          </>
+        } />
+
         <Route path="/SomePlaces" element={
           <>
             <Navbar />
-            <Intro />
             <ExpertAdvicePage />
             <Fotter />
           </>

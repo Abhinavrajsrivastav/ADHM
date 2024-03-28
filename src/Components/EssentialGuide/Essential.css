@@ -4,13 +4,7 @@
 
 
 .EssentialGuide{
-/* background: hsla(166, 66%, 34%, 1);
-background: linear-gradient(90deg, hsla(166, 66%, 34%, 1) 0%, hsla(231, 56%, 52%, 1) 100%);
-background: -moz-linear-gradient(90deg, hsla(166, 66%, 34%, 1) 0%, hsla(231, 56%, 52%, 1) 100%);
-background: -webkit-linear-gradient(90deg, hsla(166, 66%, 34%, 1) 0%, hsla(231, 56%, 52%, 1) 100%);
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E9176", endColorstr="#3F53C9", GradientType=1 ); */
- /* background: linear-gradient(to bottom, #5236f3 0%, rgba(27, 108, 173, 0.78) 100%), radial-gradient(at top center, rgba(58, 12, 149, 0.637) 0%, rgba(58, 7, 129, 0.4) 120%) #1e0158; */
- background-color: #5236f3;
+   background-color: #5236f3;
 }
 
 .Essential-Container{
@@ -20,7 +14,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E9176", en
     justify-content: center;
     height: 100%;
     padding: 0px;
-    padding-top: 80px;
+    padding-top: 20px;
     padding-bottom: 40px;
     background-color: rgba(#0061ff,#60efff);
     color: white;
@@ -89,16 +83,14 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E9176", en
 
 .EssentialG-Head {
     color: white;
-    padding: 0px 60px 0px 60px;
-    background: url('./flower.jpg') no-repeat center/cover;
+    padding: 30px 0px 0px 15px;
     position: relative; /* Added for positioning overlay */
     overflow: hidden; /* Clip the border overflow */
     border-radius: 0px; /* Border radius for curvature */
-    padding: 50px;
     font-size: 20px;
     font-family: "Noto Sans Meetei Mayek", sans-serif;
     font-style: normal;
-    background-color: rgba(#0061ff,#60efff);
+    background-color: rgba(#ffffff,#60efff);
 }
 
 /* Added overlay styling */

@@ -1,27 +1,31 @@
+// ExpertPageCard.js
+
 import React from 'react';
 import './ExpertPageCard.css';
 
-const ExpertPageCard = () => {
+const ExpertPageCard = (
+  { name,
+    img ,
+    about
+  }
+) => {
   return (
     <div className="Expert-card">
       <div className="image">
-        <img src="./images/Places/ramMandir.jpg" alt="" />
+        <img src={img} alt="Temple" />
       </div>
-      {/* <div className="content">
-          <span className="title">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </span>
-
+      <div className="content">
+        <span className="title">
+          {name}
+        </span>
         <p className="desc">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-          dolores, possimus pariatur animi temporibus nesciunt praesentium
-        </p>
-
+          {about}
+         </p>
         <a className="Expert-read" href="#">
-         Read More
+          Explore
           <span aria-hidden="true"> → </span>
         </a>
-      </div> */}
+      </div>
     </div>
   );
 };
