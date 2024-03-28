@@ -43,7 +43,7 @@ const Expert = () => {
               <ExpertC height={100} width={150} boxHeight={100} imgSrc={'./Images/ImportantThings/ayodhyaPolicee.png'} title={'Ayodhya Police Station.'} />
             </>
           )}
-          <Link to="/ExpertAdvice">
+          <Link to="/HelpPage">
             <button className="cta">
              <span>View More</span>
              <svg width="15px" height="10px" viewBox="0 0 13 10">
