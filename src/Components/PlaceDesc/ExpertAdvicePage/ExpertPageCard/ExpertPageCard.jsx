@@ -2,6 +2,7 @@
 
 import React from 'react';
 import './ExpertPageCard.css';
+import { useState } from 'react';
 
 const ExpertPageCard = (
   { name,
@@ -9,6 +10,14 @@ const ExpertPageCard = (
     about
   }
 ) => {
+
+   const [expanded, setExpanded] = useState(false);
+
+  const toggleExpansion = () => {
+    setExpanded(!expanded);
+  };
+
+
   return (
     <div className="Expert-card">
       <div className="image">
@@ -19,12 +28,25 @@ const ExpertPageCard = (
           {name}
         </span>
         <p className="desc">
-          {about}
+          {expanded ? about : about.slice(0, 100)}
+          {about.length > 100 && !expanded && (
+            <span>
+              ...{' '}
+              <button className="read-more" onClick={toggleExpansion}>
+                Read More
+              </button>
+            </span>
+          )}
          </p>
-        <a className="Expert-read" href="#">
+         {expanded && (
+          <button className="read-less" onClick={toggleExpansion}>
+            Read Less
+          </button>
+        )}
+        {/* <a className="Expert-read" href="#">
           Explore
           <span aria-hidden="true"> → </span>
-        </a>
+        </a> */}
       </div>
     </div>
   );

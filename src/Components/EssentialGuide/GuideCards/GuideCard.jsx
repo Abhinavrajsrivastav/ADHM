@@ -16,11 +16,11 @@ const GuideCard = ({
             {name}
           </span>
 
-        <p className="desc">
+        <p className="Temple-desc">
           {about}
         </p>
 
-        <a className="Expert-read" href="#">
+        <a className="Temple-Expert-read" href="#">
          Read More
           <span aria-hidden="true"> → </span>
         </a>

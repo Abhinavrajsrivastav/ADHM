@@ -8,9 +8,9 @@ const Essential = () => {
     <div className="EssentialGuide">
       <div className="EssentialG-Head">
         <div className="Head-1">
-          <h3>① Essential Guide Updated Daily</h3>
+            <span>Shri <span style={{color: "orange"}}>Ram</span> Bhumi Mandir 🚩</span>
           <div className="Essential-ViewMore">
-            <h1>Shri Ram Bhumi Mandir</h1>
+          <span>Essential Guide Updated Daily</span>
           </div>
         </div>
       </div>
