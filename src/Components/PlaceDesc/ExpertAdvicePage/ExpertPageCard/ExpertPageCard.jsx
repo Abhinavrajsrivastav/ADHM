@@ -43,10 +43,10 @@ const ExpertPageCard = (
             Read Less
           </button>
         )}
-        {/* <a className="Expert-read" href="#">
+        <a className="Expert-read" href="#">
           Explore
           <span aria-hidden="true"> → </span>
-        </a> */}
+        </a>
       </div>
     </div>
   );

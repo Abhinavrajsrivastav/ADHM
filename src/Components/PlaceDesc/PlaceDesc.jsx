@@ -35,7 +35,7 @@ const CityDesc = () => {
   return (
     <div className="City-Box">
       <div className="cityDesc-Heading">
-        <h2>04 Guidance</h2>
+        <h2>02 Guidance</h2>
         <span>Some Of the best Places in Ayodhya.</span>
       </div>
       <div className="Best-Places">

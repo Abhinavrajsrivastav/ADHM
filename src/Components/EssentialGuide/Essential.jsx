@@ -8,7 +8,7 @@ const Essential = () => {
     <div className="EssentialGuide">
       <div className="EssentialG-Head">
         <div className="Head-1">
-            <span>Shri <span style={{color: "orange"}}>Ram</span> Bhumi Mandir 🚩</span>
+            <span>01 Shri <span style={{color: "orange"}}>Ram</span> Bhumi Mandir 🚩</span>
           <div className="Essential-ViewMore">
           <span>Essential Guide Updated Daily</span>
           </div>
@@ -23,7 +23,7 @@ const Essential = () => {
 
         <Link to="/Temples">
           <button className="cta">
-            <span>View More</span>
+            <span>Continue</span>
             <svg width="15px" height="10px" viewBox="0 0 13 10">
               <path d="M1,5 L11,5"></path>
               <polyline points="8 1 12 5 8 9"></polyline>

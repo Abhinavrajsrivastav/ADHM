@@ -33,6 +33,10 @@ const TempleCard = ({ name, img, about }) => {
             Read Less
           </button>
         )}
+        <a className="Expert-read" href="#">
+          Explore
+          <span aria-hidden="true"> → </span>
+        </a>
       </div>
     </div>
   );
