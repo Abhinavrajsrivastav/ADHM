@@ -11,6 +11,7 @@ import Fotter from './Components/Fotter/Fotter';
 import HelpPage from './Components/ExpertAdvice/ExpertAdvicePage/HelpPage';
 import TemplesPage from './Components/EssentialGuide/ExpertAdvicePage/TemplesPage';
 import ExpertAdvicePage from './Components/PlaceDesc/ExpertAdvicePage/ExpertAdvicePage';
+import Navigation from './Components/Navigation/Navigation';
 
 const App = () => {
   return (
@@ -20,11 +21,12 @@ const App = () => {
           <>
             <Navbar />
             <Intro />
-            <Essential />
+            {/* <Essential />
             <Essential />
             <PlaceDesc />
-            <Expert />
+            <Expert /> */}
             <Videos />
+            {/* <Navigation /> */}
             <Fotter />
           </>
         } />
