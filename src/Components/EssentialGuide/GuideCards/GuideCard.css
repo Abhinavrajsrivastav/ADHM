@@ -4,14 +4,14 @@
   box-shadow: 0 1px 2px 0 rgba(22, 15, 96, 0.673);
   color: rgb(255, 255, 255);
   border-radius: 20px;
-  height:auto;
+  height: auto;
   min-height: 350px;
   max-width: 350px;
   min-width: 350px;
 }
 
 .card a {
-  text-decoration: none
+  text-decoration: none;
 }
 
 .contents {
@@ -27,7 +27,7 @@
   border-radius: 20px 20px 0 0;
 }
 
-.Essential-image img{
+.Essential-image img {
   height: 200px;
   width: 100%;
 }
@@ -47,36 +47,24 @@
   max-width: 400px;
 }
 
-.Temple-Expert-read {
-  display: inline-flex;
-  margin-top: 0rem;
-  color: #ffffff;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  font-weight: 500;
-  align-items: center;
-  gap: 0.25rem;
-  background-color: #2563EB;
+.action {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  top: 1rem;
+}
+
+.action button {
+  background-color: #29292bbf;
+  color: #fff;
+  border: none;
   padding: 10px 12px;
   border-radius: 20px;
-  text-decoration: none;
-  
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.action span {
-  transition: .3s ease;
-}
-
-.action:hover span {
-  transform: translateX(4px);
-}
-
-.Temple-Expert-read:hover{
-  background-color: #5236f3;
-}
-
-@media(maxwidth: 1005px){
-  .desc{
-    max-width: 400px;
-  }
+.action button:hover {
+  background-color: #101011bb;
 }

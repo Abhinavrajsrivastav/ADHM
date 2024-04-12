@@ -16,7 +16,7 @@
     height: 100%;
     padding: 0px;
     padding-top: 20px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     background-color: rgba(#0061ff,#60efff);
     color: white;
 }
@@ -87,8 +87,9 @@
     flex-wrap: wrap;
     align-items: start;
     justify-content: start;
+    text-align: start;
     color: white;
-    padding: 70px 0px 0px 140px;
+    padding: 70px 0px 0px 0px;
     position: relative; /* Added for positioning overlay */
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
@@ -127,3 +128,8 @@
     background-color: rgba(#0061ff,#60efff);
 }
 
+
+.Head-1{
+  padding-bottom: 10px;
+  padding-left: 6%;
+}

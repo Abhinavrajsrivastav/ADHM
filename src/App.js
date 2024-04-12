@@ -12,6 +12,7 @@ import HelpPage from './Components/ExpertAdvice/ExpertAdvicePage/HelpPage';
 import TemplesPage from './Components/EssentialGuide/ExpertAdvicePage/TemplesPage';
 import ExpertAdvicePage from './Components/PlaceDesc/ExpertAdvicePage/ExpertAdvicePage';
 import Navigation from './Components/Navigation/Navigation';
+import Map from './Components/Map/Map';
 
 const App = () => {
   return (
@@ -21,10 +22,10 @@ const App = () => {
           <>
             <Navbar />
             <Intro />
-            {/* <Essential />
             <Essential />
+            {/* <Essential /> */}
             <PlaceDesc />
-            <Expert /> */}
+            <Expert />
             <Videos />
             {/* <Navigation /> */}
             <Fotter />
@@ -54,6 +55,8 @@ const App = () => {
             <Fotter />
           </>
         } />
+
+        <Route path="Map" element={<Map />} />
 
       </Routes>
     </Router>

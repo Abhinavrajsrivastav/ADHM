@@ -4,8 +4,9 @@
     justify-content: center;
     align-items: center;
     padding: 140px 20px 40px 20px;
-    background-color: #000;
+    background-color: #5236f3;
     color: white;
+    /* background: url('../Navigation/Flow.png') no-repeat center center/cover; */
 }
 
 .Fotter-Head ul{
