@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './TempleCard.css';
 
-const TempleCard = ({ name, img, about }) => {
+const TempleCard = ({ name, img, about , wikipedia}) => {
   const [expanded, setExpanded] = useState(false);
 
   const toggleExpansion = () => {
@@ -33,7 +33,7 @@ const TempleCard = ({ name, img, about }) => {
             Read Less
           </button>
         )}
-        <a className="Expert-read" href="#">
+        <a className="Expert-read" href={wikipedia}>
           Explore
           <span aria-hidden="true"> → </span>
         </a>

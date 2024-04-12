@@ -18,6 +18,7 @@ const TemplesPage = () => {
             name={place.name}
             img={place.img}
             about={place.about}
+            wikipedia={place.wikiLink}
           />
         ))}
       </div>

@@ -34,7 +34,7 @@ const Expert = () => {
         <div className="Explore-Body-1">
           {size >= 1005 ? (
             <>
-              <ExpertC height={250} width={400} boxHeight={250} imgSrc={'./Images/Food/laddo.jpeg'} title={'Ask For Help.'} />
+              <ExpertC height={250} width={400} boxHeight={250} imgSrc={'./Images/Food/laddo.jpeg'} title={'हनुमान गढ़ी प्रसाद | देसी घी के बेसन लड्डू'} />
               <ExpertC height={250} width={400} boxHeight={250} imgSrc={'./Images/ImportantThings/ayodhyaPolicee.png'} title={'Police in Ayodhya'} />
             </>
           ) : (

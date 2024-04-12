@@ -55,16 +55,22 @@
 }
 
 .action button {
-  background-color: #29292bbf;
+  background-color: #3535bebf;
   color: #fff;
   border: none;
-  padding: 10px 12px;
+  padding: 6px 20px;
   border-radius: 20px;
-  font-size: 1rem;
+  font-size: .8rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .action button:hover {
-  background-color: #101011bb;
+  background-color: #1717b6bb;
+}
+
+@media(max-width:1005px){
+  .Essential-Expert-card{
+    padding-bottom: 10px;
+  }
 }

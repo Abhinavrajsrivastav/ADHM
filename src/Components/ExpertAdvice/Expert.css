@@ -12,7 +12,7 @@
 }
 
 .Explore-Heading {
-    margin-top: 30px;
+    margin-top: 0px;
     align-items: center;
 }
 
@@ -40,7 +40,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 50px;
-    padding: 100px 20px 20px 20px;
+    padding: 40px 20px 20px 20px;
     overflow-x: hidden;
 }
 
@@ -121,13 +121,25 @@
 }
 
 .Explore-Body-2{
-    scrollbar-width: thin; /* For Firefox */
+    scrollbar-width: thin;
     scrollbar-color: transparent transparent; /* For Firefox */
 }
 
 .Explore-Body-2::-webkit-scrollbar {
     display: none !important;
 }
+
+.Explore-Body-1{
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent; /* For Firefox */
+    height: 500px;
+}
+
+.Explore-Body-1::-webkit-scrollbar {
+    display: none !important;
+}
+
+
 
 @media(max-width: 1005px){
 
@@ -166,7 +178,8 @@
         gap: 30px;
         position: relative;
         left: 10px;
-        top: -90px;
+        top: -20px;
+        height: auto;
     }
 
     .viewMore{
