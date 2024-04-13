@@ -5,7 +5,8 @@
   color: rgb(255, 255, 255);
   border-radius: 20px;
   height: auto;
-  min-height: 350px;
+  padding-bottom: 1rem;
+  max-height: 400px;
   max-width: 350px;
   min-width: 350px;
 }
@@ -21,7 +22,7 @@
 .Essential-image {
   object-fit: cover;
   background-color: rgb(239, 205, 255);
-  height: 200px;
+  height: auto;
   width: auto;
   overflow: hidden;
   border-radius: 20px 20px 0 0;

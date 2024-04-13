@@ -16,7 +16,7 @@ const Essential = () => {
       </div>
       <div className="Essential-Container">
         <div className="guide-container">
-          <GuideCard images={["./Images/Places/Temples/ramMandir.jpg","./Images/Places/Temples/HanumanGarhiTemple.jpeg"]} name={"Ram Janmbhumi"} about={"Ram Janmbhumi, the birthplace of Lord Ram"}/>
+          <GuideCard images={["./Images/Places/Temples/RamMandir/ramMandir.jpg","./Images/Places/Temples/RamMandir/deputsavs.jpg","./Images/Places/Temples/RamMandir/rammandir2.jpg"]} name={"Ram Janmbhumi"} about={"Ram Janmbhumi, the birthplace of Lord Ram"}/>
           <GuideCard images={["./Images/Places/Temples/HanumanGarhiTemple.jpeg"]} name={"Hanuman Garhi"} about={"Hanuman Garhi is a temple dedicated to Lord Hanuman, situated in the heart of Ayodhya"}/>
           <GuideCard images={["./Images/Places/Temples/tulsiSmarakBhawanMuseum.jpg"]} name={"Tulsi Smarak Bhavan"} about={"Tulsi Smarak Bhavan is a museum and research center dedicated to the life and works of Goswami Tulsidas"}/>
         </div>
