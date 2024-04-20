@@ -10,17 +10,18 @@
 
 
 body{
-    color: black;
     font-family: "Lato", sans-serif;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
     overflow-y: hidden; 
     transition: .3s ease-in-out; 
+    background-color: #5236f3;
 }
 
 html, body {
     overflow-x: hidden;
+    background-color: #5236f3;
 }
 
 :root {

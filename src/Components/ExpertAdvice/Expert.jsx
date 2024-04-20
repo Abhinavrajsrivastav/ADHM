@@ -34,7 +34,7 @@ const Expert = () => {
         <div className="Explore-Body-1">
           {size >= 1005 ? (
             <>
-              <ExpertC height={250} width={400} boxHeight={250} imgSrc={'./Images/Food/laddo.jpeg'} title={'हनुमान गढ़ी प्रसाद | देसी घी के बेसन लड्डू'} />
+              <ExpertC height={300} width={500} boxHeight={250} imgSrc={'./Images/Food/laddo.jpeg'} title={'हनुमान गढ़ी प्रसाद | देसी घी के बेसन लड्डू'} />
               <ExpertC height={250} width={400} boxHeight={250} imgSrc={'./Images/ImportantThings/ayodhyaPolicee.png'} title={'Police in Ayodhya'} />
             </>
           ) : (
@@ -59,9 +59,9 @@ const Expert = () => {
               <ExpertC height={300} width={350} boxHeight={300} imgSrc={'./Images/ThingsRemember/askHelp.jpeg'} title={'Ask for help.'} />
               <ExpertC height={300} width={350} boxHeight={300} imgSrc={'./Images/ImportantThings/medical.jpg'} title={'Medical Hospitals in Ayodhya.'} />
               <ExpertC height={300} width={350} boxHeight={300} imgSrc={'./Images/ImportantThings/aware.png'} title={'Be aware.'} />
-              <ExpertC height={300} width={350} boxHeight={300} imgSrc={'./Images/ImportantThings/motals.jpg'} title={'Place where you can stay.'} />
+              {/* <ExpertC height={300} width={350} boxHeight={300} imgSrc={'./Images/ImportantThings/motals.jpg'} title={'Place where you can stay.'} />
               <ExpertC height={300} width={350} boxHeight={300} imgSrc={'./Images/ImportantThings/busService.png'} title={'Bus services in Ayodhya.'} />
-              <ExpertC height={300} width={350} boxHeight={300} imgSrc={'./Images/ImportantThings/taxiService.jpg'} title={'Taxi service in local areas.'} />
+              <ExpertC height={300} width={350} boxHeight={300} imgSrc={'./Images/ImportantThings/taxiService.jpg'} title={'Taxi service in local areas.'} /> */}
             </>
           ) : (
             <>

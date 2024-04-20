@@ -1,31 +1,30 @@
 import React from 'react';
-import './bestPlacePage.css';
+import './BestPlacePage.css';
 import BPP from './BestPlacePage/BPP';
+import AboutPlace from '../../Data/AboutPlace';
 
-const bestPlacePage = () => {
+const BestPlacePage = () => {
+  const placesData = AboutPlace();
   return (
     <div className="bestPlace-container">
-        <div className="bestPlace-Head">
-            <img src="./images/Places/ramMandir.jpg" alt="" />
-            <div className="heading-text">
-                <span>Welcome to Ayodhya, here are some of beautiful and peaceful places to visit.</span>
-            </div>
-        </div>
-
         <div className="body-heading">
-            <h2>04 Guidance</h2>
             <span>Some Of the best Places in Ayodhya.</span>
         </div>
          <div className="Best-Places-body">
-           <BPP imgSrc={'./Images/Places/RelaxPlace/ramKiPaidi.jpg'} title={'Ramki Paidi'} about={'Ram ki paidi'}/>  
-           <BPP imgSrc={'./Images/Places/RelaxPlace/guptarGhat.jpg'} title={'Guptar ghat'} about={'Guptar Ghat'}/>   
-           <BPP imgSrc={'./Images/Places/RelaxPlace/militaryTemple.jpg'} title={'Milatry temple'} about={'Milatry temple'}/>  
-           <BPP imgSrc={'./Images/Places/RelaxPlace/ramKiPaidi.jpg'} title={'Ramki Paidi'} about={'Ram ki paidi'}/>  
-           <BPP imgSrc={'./Images/Places/RelaxPlace/guptarGhat.jpg'} title={'Guptar ghat'} about={'Guptar Ghat'}/>   
-           <BPP imgSrc={'./Images/Places/RelaxPlace/militaryTemple.jpg'} title={'Milatry temple'} about={'Milatry temple'}/>
-      </div>
+            {placesData.map((place, index) => (
+          <BPP
+            key={index} // Providing a unique key for each card
+            name={place.name}
+            img={place.img}
+            about={place.about}
+            wekipedia={place.wekipedia}
+            Vid={place.VID}
+            lat={place.lat}
+            lng={place.lng}
+          />
+        ))}     </div>
     </div>
   )
 }
 
-export default bestPlacePage
+export default BestPlacePage

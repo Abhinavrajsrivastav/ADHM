@@ -9,7 +9,7 @@ const TemplesPage = () => {
 
   return (
     <div className="expert-page-container">
-      <div className="expert-page-heading">Temples of Ayodhya</div>
+      <div className="Temple-expert-page-heading">Temples of Ayodhya</div>
       <div className="ExpertPage-container">
         {/* Mapping over placesData array and generating ExpertPageCard for each place */}
         {placesData.map((place, index) => (
@@ -19,6 +19,9 @@ const TemplesPage = () => {
             img={place.img}
             about={place.about}
             wikipedia={place.wikiLink}
+            Vid={place.VID}
+            lat={place.lat}
+            lng={place.lng}
           />
         ))}
       </div>

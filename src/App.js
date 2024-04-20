@@ -10,9 +10,9 @@ import Videos from './Components/Videos/Videos';
 import Fotter from './Components/Fotter/Fotter';
 import HelpPage from './Components/ExpertAdvice/ExpertAdvicePage/HelpPage';
 import TemplesPage from './Components/EssentialGuide/ExpertAdvicePage/TemplesPage';
-import ExpertAdvicePage from './Components/PlaceDesc/ExpertAdvicePage/ExpertAdvicePage';
 import Navigation from './Components/Navigation/Navigation';
 import Map from './Components/Map/Map';
+import BestPlacePage from './Components/PlaceDesc/BestPlacePage/BestPlacePage';
 
 const App = () => {
   return (
@@ -43,7 +43,7 @@ const App = () => {
         <Route path="/SomePlaces" element={
           <>
             <Navbar />
-            <ExpertAdvicePage />
+            <BestPlacePage />
             <Fotter />
           </>
         } />
@@ -56,7 +56,7 @@ const App = () => {
           </>
         } />
 
-        <Route path="Map" element={<Map />} />
+        <Route path="/Map" element={<Map />} />
 
       </Routes>
     </Router>

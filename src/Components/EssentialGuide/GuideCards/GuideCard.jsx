@@ -4,7 +4,8 @@ import './GuideCard.css';
 const GuideCard = ({
   images,
   name,
-  about
+  about,
+  wekipedia,
 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -29,12 +30,11 @@ const GuideCard = ({
           {about}
         </p>
         <div className="action">
-          {/* <button className="backward" onClick={prevImage}>
-            ←
-          </button> */}
-          <button className="forward" onClick={nextImage}>
-            →
-          </button>
+          <a href={wekipedia}><img src="./Icons/Wekipedia.png" className="Icons mx-3"></img></a>
+          <div onClick={nextImage}>
+            <img src="./Icons/next.png"  className="Icons">
+          </img>
+          </div>
         </div>
       </div>
     </div>

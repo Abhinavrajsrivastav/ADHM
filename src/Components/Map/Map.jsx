@@ -1,13 +1,24 @@
 import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 function Map() {
+
+  const location = useLocation();
+  const name =location.state.name;
+  const X = location.state.lat;
+  const Y = location.state.lng;
+  
+  console.log("in map Latitude:", X);
+  console.log("Longitude:", Y);
+
+
+  console.log(name);
   useEffect(() => {
-    // Initialize the map when the component mounts
     initMap();
   }, []);
 
   const initMap = () => {
-    const myLatLng = { lat: 26.77408, lng: 82.19842 };
+    const myLatLng = { lat: parseInt(X), lng: parseInt(Y)};
 
     const map = new window.google.maps.Map(document.getElementById('map'), {
       zoom: 15,
