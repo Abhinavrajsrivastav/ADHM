@@ -34,7 +34,7 @@ const Intro = () => {
   return (
     <div className="Welcome-Page">
       <div className="Intro-Container">
-        <img src="./images/Places/Temples/RamMandir/ramMandir.jpg" className="Welcome-Img" alt=""/>
+        <img src="./images/Places/Temples/RamMandir/RamMandir.jpg" className="Welcome-Img" alt=""/>
         <div className="Content-Overlay">
             <h1>Your Ayodhya<br /> Dham Visit Guide</h1>
             <div  className="OverLays-box">

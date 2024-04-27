@@ -28,19 +28,19 @@ const Expert = () => {
     <div className="Explore-Container">
       <div className="Explore-Heading">
         <span>03 Guidance</span>
-        <h2 className="Typing-text">Expert advice, Food and Stay at Ayodhya.</h2>
+        <h2 className="Typing-text">Events, Festivals and center of attraction of Ayodhya.</h2>
       </div>
       <div className="Explore-Body">
         <div className="Explore-Body-1">
           {size >= 1005 ? (
             <>
-              <ExpertC height={300} width={500} boxHeight={250} imgSrc={'./Images/Food/laddo.jpeg'} title={'हनुमान गढ़ी प्रसाद | देसी घी के बेसन लड्डू'} />
-              <ExpertC height={250} width={400} boxHeight={250} imgSrc={'./Images/ImportantThings/ayodhyaPolicee.png'} title={'Police in Ayodhya'} />
+              <ExpertC height={300} width={500} boxHeight={250} imgSrc={'./Images/Events/deeputsav.webp'} title={'Deeputsav'} />
+              <ExpertC height={250} width={400} boxHeight={250} imgSrc={'./Images/Events/ramnavmi.webp'} title={'Ram navmi'} />
             </>
           ) : (
             <>
-              <ExpertC height={100} width={150} boxHeight={100} imgSrc={'./Images/ImportantThings/medical.jpg'} title={'Medical Hospitals in Ayodhya.'} />
-              <ExpertC height={100} width={150} boxHeight={100} imgSrc={'./Images/ImportantThings/ayodhyaPolicee.png'} title={'Ayodhya Police Station.'} />
+              <ExpertC height={100} width={150} boxHeight={100} imgSrc={'./Images/Events/deeputsav.webp'} title={'Deeputsav'} />
+              <ExpertC height={100} width={150} boxHeight={100} imgSrc={'./Images/Events/ramnavmi.webp'} title={'Ram navmi'} />
             </>
           )}
           <Link to="/HelpPage">
@@ -56,18 +56,15 @@ const Expert = () => {
         <div className="Explore-Body-2">
           {size >= 1005 ? (
             <>
-              <ExpertC height={300} width={350} boxHeight={300} imgSrc={'./Images/ThingsRemember/askHelp.jpeg'} title={'Ask for help.'} />
-              <ExpertC height={300} width={350} boxHeight={300} imgSrc={'./Images/ImportantThings/medical.jpg'} title={'Medical Hospitals in Ayodhya.'} />
-              <ExpertC height={300} width={350} boxHeight={300} imgSrc={'./Images/ImportantThings/aware.png'} title={'Be aware.'} />
-              {/* <ExpertC height={300} width={350} boxHeight={300} imgSrc={'./Images/ImportantThings/motals.jpg'} title={'Place where you can stay.'} />
-              <ExpertC height={300} width={350} boxHeight={300} imgSrc={'./Images/ImportantThings/busService.png'} title={'Bus services in Ayodhya.'} />
-              <ExpertC height={300} width={350} boxHeight={300} imgSrc={'./Images/ImportantThings/taxiService.jpg'} title={'Taxi service in local areas.'} /> */}
+              <ExpertC height={300} width={350} boxHeight={300} imgSrc={'./Images/Events/dewali.jpg'} title={'Dewali'} />
+              <ExpertC height={300} width={350} boxHeight={300} imgSrc={'./Images/Events/Hanuman-Jayanti2.jpg'} title={'Hanuman Jayanti'} />
+              <ExpertC height={300} width={350} boxHeight={300} imgSrc={'./Images/Events/saryuaarti.jpeg'} title={'Saryu Aarti'} />
             </>
           ) : (
             <>
-              <ExpertC height={90} width={130} boxHeight={90} imgSrc={'./Images/ImportantThings/busService.png'} title={'Bus services in Ayodhya.'} />
-              <ExpertC height={90} width={130} boxHeight={90} imgSrc={'./Images/ImportantThings/aware.png'} title={'Be aware.'} />
-              <ExpertC height={90} width={130} boxHeight={90} imgSrc={'./Images/ThingsRemember/askHelp.jpeg'} title={'Ask for help if you need.'} />
+              <ExpertC height={90} width={130} boxHeight={90} imgSrc={'./Images/Events/Hanuman-Jayanti2.jpg'} title={'Hanuman Jayanti'} />
+              <ExpertC height={90} width={130} boxHeight={90} imgSrc={'./Images/Events/saryuaarti.jpeg'} title={'Saryu Aarti'} />
+              <ExpertC height={90} width={130} boxHeight={90} imgSrc={'./Images/Events/kartikpurnima.jpg'} title={'Kartik Purnima'} />
             </>
           )}
         </div>

@@ -89,7 +89,7 @@
     justify-content: start;
     text-align: start;
     color: white;
-    padding: 70px 0px 0px 0px;
+    padding: 70px 0px 0px 47px;
     position: relative; /* Added for positioning overlay */
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
@@ -132,4 +132,11 @@
 .Head-1{
   padding-bottom: 10px;
   padding-left: 6%;
+}
+
+@media(max-width: 1005px){
+  .EssentialG-Head{
+   padding: 70px 0px 0px 0px;
+   font-size: 25px;
+  }
 }
