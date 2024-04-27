@@ -1,6 +1,6 @@
 import React from 'react';
 import './BestPlacePage.css';
-import BPP from './BestPlacePage/BPP';
+import BPP from './BestPlacePageCard/BPP';
 import AboutPlace from '../../Data/AboutPlace';
 
 const BestPlacePage = () => {
