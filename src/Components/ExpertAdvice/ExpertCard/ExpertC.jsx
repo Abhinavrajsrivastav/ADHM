@@ -12,6 +12,7 @@ const ExpertC = ({
     <div className="Explore-Card">
       <div className="Explore-Img" style={{height: boxHeight}}>
         <img src={imgSrc} alt="" style={{ height: height, width: width }} />
+        <div className="Overlay"></div>
       </div>
       <div className="EContent">
         <div className="Explore-Content">

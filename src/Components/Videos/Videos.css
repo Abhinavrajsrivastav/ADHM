@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 .Video-Container{
     display: flex;
     flex-direction: column;
@@ -5,7 +7,8 @@
     gap: 0px;
     background-color: #bdbdbdad;
     padding: 20px 20px 20px 20px;
-    font-family: "Lato", sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
 }
 
 .Video-Head{
@@ -35,6 +38,8 @@
 }
 
 .Videos-Body{
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -43,6 +48,8 @@
     padding-bottom: 50px;
 }
 .Video-Fotter{
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
     justify-content: start;
     align-items: start;
     font-size: 14px;
@@ -54,7 +61,28 @@
 
 
 @media(max-width: 1005px){
+    .Video-Head{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+    align-items: start;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.Video-Head span{
+    font-size: 1.2rem;
+    align-items: start;
+    text-align: start;
+    font-weight: 400;
+    margin-bottom: 0px;
+    opacity: .6;
+    font-weight: bold;
+}
     .Video-Fotter{
         left: 0px;
     }
+
 }

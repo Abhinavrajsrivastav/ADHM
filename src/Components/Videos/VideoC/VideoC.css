@@ -8,7 +8,8 @@
   align-items: start;
   gap: 10px;
   max-width: 400px;
-  font-family: "EB Garamond", serif;
+  font-family: "Noto Sans KR", sans-serif;
+  font-style: normal;
 }
 
 .video {
@@ -67,4 +68,16 @@
 .video-about{
   font-size: 1.3rem;
   font-weight: bold;
+}
+
+@media(max-width: 1005px){
+  .video-title{
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+.video-about{
+  font-size: 1.0rem;
+  font-weight: bold;
+}
 }

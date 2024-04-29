@@ -8,7 +8,7 @@ const Essential = () => {
     <div className="EssentialGuide">
       <div className="EssentialG-Head">
         <div className="Head-1">
-          <span>01 Shri <span style={{color: "orange"}}>Ram</span> Bhumi Mandir 🚩</span>
+          <span>01 Shri <span style={{color: "orange"}}>Ram</span> Janambhumi Mandir 🚩</span>
           <div className="Essential-ViewMore">
             {/* <span>Essential Guide Updated Daily</span> */}
           </div>

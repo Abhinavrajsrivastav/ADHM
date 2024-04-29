@@ -7,7 +7,7 @@
   background-color: #5236f3;
   font-family: "Lato", sans-serif;
   padding: 0px;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   /* background: url('https://rishikeshdaytour.com/blog/wp-content/uploads/2023/09/top10-places-to-visit-in-Ayodhya.jpg') no-repeat center/cover; */
 }
 
@@ -77,6 +77,7 @@
 
   .City-Box{
     padding: 20px;
+    padding-bottom: 50px;
   }
   .city-container {
   display: flex;
