@@ -27,4 +27,4 @@ const BestPlacePage = () => {
   )
 }
 
-export default BestPlacePage
+export default BestPlacePage;

@@ -12,7 +12,6 @@ import HelpPage from './Components/ExpertAdvice/ExpertAdvicePage/HelpPage';
 import TemplesPage from './Components/EssentialGuide/ExpertAdvicePage/TemplesPage';
 import Navigation from './Components/Navigation/Navigation';
 import Map from './Components/Map/Map';
-import BestPlacePage from './Components/PlaceDesc/BestPlacePage/BestPlacePage';
 
 const App = () => {
   return (
