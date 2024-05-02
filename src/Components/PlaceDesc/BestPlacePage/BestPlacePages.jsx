@@ -1,5 +1,5 @@
 import React from 'react';
-import './BestPlacePage.css';
+import './BestPlacePages.css';
 import BPP from './BestPlacePageCard/BPP';
 import AboutPlace from '../../Data/AboutPlace';
 
