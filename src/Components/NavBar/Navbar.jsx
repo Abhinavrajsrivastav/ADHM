@@ -49,11 +49,10 @@ const Navbar = () => {
         <>
           <div className="symbol">|| Ayodhya Dham ||</div>
           <div className="navLinks">
-            <span>Ram Mandir Darshan</span>
-            <span>Saryu Nadi Aarti</span>
-            <span>Attraction and Events</span>
-            <span>Planning</span>
-            <span>Ayodhya News</span>
+            <a href="#EssentialGuide">Ram Mandir Darshan</a>
+            <a href="#events">Saryu Nadi Aarti</a>
+            <a href="#events">Attraction and Events</a>
+            <a href="#events">Explore</a>
             {/* <span className="d-inline-block">
               <img
                 src="./images/icons/search.png"

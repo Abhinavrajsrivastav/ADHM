@@ -5,7 +5,7 @@
     align-items: center;
     padding-top: 40px;
     background-color: #5236f3;
-     font-family: "Signika", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
@@ -46,15 +46,20 @@
 .Best-Places-body{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 0px;
     padding: 20px;
     background-color: #5236f3;
 }
 
 @media(max-width: 1005px){
- .body-heading{
-    font-size: 20px;
+ .body-heading span{
+    position: relative;
+    left: 30px;
+    margin: 0;
+    max-width: 400px;
+    font-size: 1.5rem;
+    padding: 0px;
  }
 }
 

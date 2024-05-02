@@ -10,7 +10,7 @@ const TempleCard = ({ name, img, about, wikipedia, Vid, lat, lng }) => {
 
   const NavigateToMap = () => {
     const addressQuery = encodeURIComponent(`${name}`); // Encode the address or place name
-    window.open(`https://www.google.com/maps/search/?api=1&query=${name}`, '_blank'); // Open Google Maps in a new tab with the address query
+    window.open(`https://www.google.com/maps/search/?api=1&query=${name}+Ayodhya`, '_blank'); // Open Google Maps in a new tab with the address query
   };
 
   const toggleExpansion = () => {
@@ -36,9 +36,9 @@ const TempleCard = ({ name, img, about, wikipedia, Vid, lat, lng }) => {
         <img src={img} alt={name} />
       </div>
       <div className="content">
-        <span className="title">{name}</span>
-        <p className="desc">
-          {expanded ? about : about.slice(0, 100)}
+        <span className="titles">{name}</span>
+        <p className="descs">
+          {expanded ? about : about.slice(0, 70)}
           {about.length > 100 && !expanded && (
             <span>
               ...{' '}

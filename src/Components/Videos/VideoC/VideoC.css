@@ -8,7 +8,7 @@
   align-items: start;
   gap: 10px;
   max-width: 400px;
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
 }
 
@@ -68,6 +68,7 @@
 .video-about{
   font-size: 1.3rem;
   font-weight: bold;
+  opacity: .7;
 }
 
 @media(max-width: 1005px){

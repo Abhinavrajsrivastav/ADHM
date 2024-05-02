@@ -25,7 +25,7 @@ const Expert = () => {
 
   const size = window.innerWidth;
   return (
-    <div className="Explore-Container">
+    <div className="Explore-Container" id="events">
       <div className="Explore-Heading">
         <span>03 Guidance</span>
         <h2 className="Typing-text">Events, Festivals and center of attraction of Ayodhya.</h2>

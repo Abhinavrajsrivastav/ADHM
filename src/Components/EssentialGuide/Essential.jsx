@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Essential = () => {
   return (
-    <div className="EssentialGuide">
+    <div className="EssentialGuide" id="EssentialGuide">
       <div className="EssentialG-Head">
         <div className="Head-1">
           <span>01 Shri <span style={{color: "orange"}}>Ram</span> Janambhumi Mandir 🚩</span>
@@ -23,7 +23,7 @@ const Essential = () => {
               "./Images/Places/Temples/RamMandir/rammandir2.jpg"
             ]} 
             name={"Ram Janmbhumi"} 
-            about={"Ram Janmbhumi, the birthplace of Lord Ram"}
+            about={"Ram Janmbhumi, the birthplace of Lord Ram, is a highly revered site for Hindus."}
             wekipedia={"https://en.wikipedia.org/wiki/Ram_Janmabhoomi"}
           />
           <GuideCard 

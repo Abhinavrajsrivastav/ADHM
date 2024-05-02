@@ -23,7 +23,7 @@ const GuideCard = ({
         <img src={images[currentImageIndex]} alt="" style={{ transition: ".5s ease-in-out" }} />
       </div>
       <div className="contents">
-        <span className="title">
+        <span className="temple-title">
           {name}
         </span>
         <p className="Temple-desc">

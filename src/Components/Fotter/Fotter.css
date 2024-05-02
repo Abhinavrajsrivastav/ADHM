@@ -6,7 +6,7 @@
     padding: 140px 20px 40px 20px;
     background-color: #5236f3;
     color: white;
-    /* background: url('../Navigation/Flow.png') no-repeat center center/cover; */
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .Fotter-Head ul{
@@ -45,7 +45,6 @@
     align-items: center;
     padding: 20px;
     font-size: 80px;
-    font-family: "DM Sans", sans-serif;
     letter-spacing: 10px;
     font-weight: 1000;
 }
@@ -57,6 +56,19 @@
     font-weight: bold;
     opacity: 0.7;
     position: relative;
+}
+
+li:hover{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+}
+a:hover{
+  opacity: 1;
 }
 
 @media(max-width: 1005px){

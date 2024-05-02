@@ -4,6 +4,8 @@ import './VideoC.css';
 
 function VideoC({
   vId,
+  about,
+  title,
 }) {
   const videoId = vId;
   const [showVideo, setShowVideo] = useState(false);
@@ -37,10 +39,10 @@ function VideoC({
       )}
 
       <div className="video-title">
-        How to add hyperloop in website design.
+        {title}
       </div>
       <div className="video-about">
-        Hyperloop in the website makes it more beautiful and interesting.
+        {about}
       </div>
     </div>
   );

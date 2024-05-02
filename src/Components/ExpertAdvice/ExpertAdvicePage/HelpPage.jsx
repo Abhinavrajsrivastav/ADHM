@@ -9,11 +9,13 @@ const HelpPage = () => {
   return (
 
     <div className="expert-page-container">
-    {/* <h1 className="expert-page-heading">Expert Advice for visiters coming in Shri Ayodhya Dham.</h1> */}
-    <div className="ExpertPage-container">
+    <div className="expert-page-heading">
+    <h1>Events, Festivals and attraction of Ayodhya 🪔</h1>
+    </div>
+    <div className="ExpertPage-containers">
        {HelpData.map((place, index) => (
           <TempleCard
-            key={index} // Providing a unique key for each card
+            key={index}
             name={place.name}
             img={place.img}
             about={place.about}

@@ -8,7 +8,7 @@ const BestPlacePage = () => {
   return (
     <div className="bestPlace-container">
         <div className="body-heading">
-            <span>Some Of the best Places in Ayodhya.</span>
+            <span>Some of the best Places in Ayodhya 🍀</span>
         </div>
          <div className="Best-Places-body">
             {placesData.map((place, index) => (

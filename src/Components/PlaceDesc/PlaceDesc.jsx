@@ -36,7 +36,7 @@ const CityDesc = () => {
     <div className="City-Box">
       <div className="cityDesc-Heading">
         <h2>02 Guidance</h2>
-        <span>Some Of the best Places in Ayodhya.</span>
+        <span>Some of the best Places in Ayodhya.</span>
       </div>
       <div className="Best-Places">
            <BPC imgSrc={'./Images/Places/RelaxPlace/ramKiPaidi.jpg'} title={'Ramki Paidi'} about={'Ram ki paidi. This place is known for its serene atmosphere and is located on the banks of the river. It is a popular spot for devotees to take holy dips and offers a beautiful view of the surrounding landscape.'}/>  

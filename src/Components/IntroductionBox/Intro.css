@@ -81,13 +81,13 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: start;
-    top: 45%;
-    left: 37%;
+    top: 47%;
+    left: 39%;
     min-width: 200px;
 }
 
 .Content-Overlay h1 {
-    font-size: 3.0em;
+    font-size: 2em;
     font-weight: bolder;
     margin-top: 20px;
 }

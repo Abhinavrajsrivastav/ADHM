@@ -12,6 +12,7 @@
   min-height: 380px;
   transition: .2s ease-in-out;
   margin-top: 20px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .content {
@@ -33,10 +34,10 @@
   height: 220px;
 }
 
-.title {
+.titles {
   color: #ffffff;
-  font-weight: 600;
-  font-family: "Signika", sans-serif;
+  font-weight: 500;
+  font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
@@ -44,29 +45,19 @@
     font-size: 2rem;
 }
 
-.desc {
+.descs {
   margin-top: 0.5rem;
   color: rgba(255, 255, 255, 0.811);
   font-size: 1.1rem;
   line-height: 1.5rem;
-  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 400;
   font-style: normal;
   transition: .5s ease-in-out;
 }
 
-.Temple-read-more {
-  color: #ffffff;
-  cursor: pointer;
-  border: none;
-  background: none;
-  font-size: 1rem;
-  text-decoration: none;
-  font-weight: bold;
-  transition: .3s ease-in-out;
-}
-
+.Temple-read-more,
 .Temple-read-less {
   color: #ffffff;
   cursor: pointer;
@@ -78,13 +69,17 @@
   transition: .3s ease-in-out;
 }
 
+.Temple-read-more:hover,
+.Temple-read-less:hover {
+  text-decoration: underline;
+}
+
 .Temple-Expert-read {
   margin-top:20px;
   margin: 5px;
   transition: .1s ease-in-out;
   cursor: pointer;
 }
-
 
 .action span {
   transition: .3s ease;
@@ -146,8 +141,11 @@
   z-index: 1;
 }
 
-
 @media(max-width: 1005px){
+
+  .titles{
+     font-size: 1.5rem;
+  }
   .Essential-card {
     min-width: 100%;
     max-width: 370px;

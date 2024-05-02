@@ -6,11 +6,12 @@
   border-radius: 20px;
   height: auto;
   padding-bottom: 1rem;
-  max-height: 400px;
+  /* min-height: 400px; */
+  height:auto;
   max-width: 350px;
-  min-height: 350px;
   min-width: 350px;
   background-color: rgba(243, 243, 243, 0);
+  font-family: "Josefin Sans", sans-serif;
   /* border: 1px  solid #282828; */
 }
 
@@ -20,6 +21,7 @@
 
 .contents {
   padding: 1.1rem;
+  justify-content: space-evenly;
 }
 
 .Essential-image {
@@ -36,12 +38,13 @@
   width: 100%;
 }
 
-.title {
+.temple-title {
   color: #ffffff;
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 600;
   text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .Temple-desc {
@@ -49,6 +52,8 @@
   color: #ffffff;
   font-size: 1rem;
   max-width: 400px;
+  font-family: "Josefin Sans", sans-serif;
+  opacity: .7;
 }
 
 .action {
@@ -74,6 +79,10 @@
 }
 
 @media(max-width:1005px){
+  .temple-title{
+    font-size: 1.5rem;
+  }
+
   .Essential-Expert-card{
     padding-bottom: 10px;
   }

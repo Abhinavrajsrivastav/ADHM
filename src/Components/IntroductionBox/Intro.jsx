@@ -32,7 +32,7 @@ const Intro = () => {
   },[])
 
   return (
-    <div className="Welcome-Page">
+    <div className="Welcome-Page" id="Home">
       <div className="Intro-Container">
         <img src="./images/Places/Temples/RamMandir/RamMandir.jpg" className="Welcome-Img" alt=""/>
         <div className="Content-Overlay">
