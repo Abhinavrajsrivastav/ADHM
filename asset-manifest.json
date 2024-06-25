@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/AyodhyaDham/static/css/main.7f275eb5.css",
+    "main.js": "/AyodhyaDham/static/js/main.5f2507cc.js",
+    "static/media/Flow.png": "/AyodhyaDham/static/media/Flow.64b574b9484f6a913c34.png",
+    "index.html": "/AyodhyaDham/index.html",
+    "main.7f275eb5.css.map": "/AyodhyaDham/static/css/main.7f275eb5.css.map",
+    "main.5f2507cc.js.map": "/AyodhyaDham/static/js/main.5f2507cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f275eb5.css",
+    "static/js/main.5f2507cc.js"
+  ]
+}
