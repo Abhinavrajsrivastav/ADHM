@@ -1,6 +1,6 @@
 ![image](https://github.com/Abhinavrajsrivastav/Ayodhya-Dham/assets/96422848/72769276-ee08-4a7c-8273-6d5fa47cd19f)
 ![image](https://github.com/Abhinavrajsrivastav/Ayodhya-Dham/assets/96422848/3ce2f0ff-f650-405a-9545-6536aacdeca9)
-![image](https://github.com/Abhinavrajsrivastav/Ayodhya-Dham/assets/96422848/09b1a956-9cc3-42dd-a483-88a6b86b957f)
+![image](https://github.com/Abhinavrajsrivastav/Ayodhya-Dham/assets/96422848/b350d586-7c19-4232-be5a-de873e876be4)
 
 # Ayodhya Dham Visitor Guide
 
@@ -14,8 +14,6 @@ Welcome to the Ayodhya Dham Visitor Guide website! This React-based application 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies](#technologies)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -29,7 +27,6 @@ Ayodhya Dham Visitor Guide is designed to offer comprehensive information about 
 - **Interactive Map**: Explore an interactive map highlighting important locations.
 - **Event Calendar**: Stay updated with upcoming events and festivals.
 - **Photo Gallery**: View beautiful images of Ayodhya and its landmarks.
-- **Visitor Reviews**: Read reviews and experiences from other visitors.
 
 ## Demo
 
@@ -41,11 +38,11 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/ayodhya-dham-visitor-guide.git
+    https://github.com/Abhinavrajsrivastav/Ayodhya-Dham.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd ayodhya-dham-visitor-guide
+    cd AyodhyaDham
     ```
 3. Install the dependencies:
     ```bash
